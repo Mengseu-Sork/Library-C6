@@ -54,6 +54,7 @@ body {
   text-decoration: none;
   transition: color 0.3s;
   font-weight: bold;
+  font-size: 20px;
 }
 .navbar .nav-right ul li .active {
   color: #D47907;
@@ -66,6 +67,10 @@ body {
 }
 .navbar #check {
   display: none;
+}
+
+.bg {
+  height: 60vh;
 }
 
 footer {
@@ -84,9 +89,9 @@ footer .footer-left, footer .footer-conter, footer .footer-right {
 }
 footer .footer-left h4, footer .footer-conter h4, footer .footer-right h4 {
   color: white;
-  margin-left: 20px;
 }
-footer .footer-left img {
+footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   width: 30px;
   height: 30px;
+  margin-right: 20px;
 }/*# sourceMappingURL=contact.css.map */
