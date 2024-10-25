@@ -6,7 +6,10 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     height: auto;
 }
 @import "components/variable";
+@import "mixins/groupmixin";
 @import "components/navbar";
+@import "components/footer";

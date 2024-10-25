@@ -1,0 +1,23 @@
+footer {
+    background-color: $bg-footer;
+    height: 20vh;
+    width: 100%;
+    @include display-conter;
+    justify-content: space-around;
+  
+    .footer-left, .footer-conter, .footer-right {
+        @include display-conter;
+  
+        h4 {
+            color: $footer-h4;
+            margin-left: 20px;
+        }
+    }
+  
+    .footer-left {
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
