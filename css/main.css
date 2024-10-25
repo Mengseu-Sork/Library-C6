@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+body {
+  display: flex;
+  height: auto;
+}
+
+.navbar {
+  background-color: #FCFCFC;
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .nav-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+.navbar .nav-left .logo img {
+  width: 60px;
+  height: 60px;
+  margin-left: 50px;
+}
+.navbar .nav-left h2 {
+  color: #D47907;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.navbar .nav-right {
+  width: 60%;
+  display: flex;
+  margin-left: 20px;
+}
+.navbar .nav-right ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.navbar .nav-right ul li {
+  margin-right: 20px;
+}
+.navbar .nav-right ul li a {
+  color: #08707F;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+.navbar .nav-right ul li .active {
+  color: #D47907;
+}
+.navbar .checkbtn {
+  font-size: 30px;
+  color: #08707F;
+  cursor: pointer;
+  display: none;
+}
+.navbar #check {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
