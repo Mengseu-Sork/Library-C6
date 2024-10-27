@@ -91,6 +91,8 @@ body {
 }
 .group-card .card img {
   margin-bottom: 40px;
+  width: 70px;
+  height: 70px;
 }
 .group-card .card h4 {
   width: 70%;
@@ -139,6 +141,7 @@ main .main-top {
 main .main-top h1 {
   color: #08707F;
   padding-bottom: 10px;
+  font-size: 30px;
 }
 main .main-bottom {
   margin-top: 70px;
@@ -146,6 +149,7 @@ main .main-bottom {
 main .main-bottom h1 {
   color: #08707F;
   padding-bottom: 10px;
+  font-size: 30px;
 }
 main .main-bottom .main-contain {
   display: flex;
@@ -222,6 +226,7 @@ header .content p {
 .aside-bottom h1 {
   color: #08707F;
   padding-bottom: 10px;
+  font-size: 30px;
 }
 .aside-top h4,
 .aside-bottom h4 {
@@ -257,4 +262,5 @@ section .text-section {
 section .text-section h1 {
   color: #08707F;
   padding-bottom: 10px;
+  font-size: 30px;
 }/*# sourceMappingURL=about.css.map */
