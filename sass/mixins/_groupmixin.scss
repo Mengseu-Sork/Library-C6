@@ -10,5 +10,9 @@
         height: 70vh;}
 }
 @mixin font-h{
+}
+@mixin style-h2{
+    color: $color-h2;
+    margin-bottom: 20px;
     font-size: 30px;
 }

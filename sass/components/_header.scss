@@ -1,3 +1,4 @@
+
 .bg{
     @include bg;
 }
@@ -15,10 +16,30 @@
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
-        margin-top: 30px;
+        margin-top: 30px;}
   
     img {
         width: 313px;
-        height: 200px;
+        height: 200px;}
+
+header{
+    background-image: url(../../images/home/bg.png);
+    background-size: cover;
+    height: 85vh;
+    .content{
+        background: linear-gradient(to right, #000000c7 30%, #00000017 100%,#000000 100%);
+        height: 100%;
+        padding: 150px 500px 100px 150px;
+        h1{
+            color: white;
+            margin-bottom: 20px;
+            font-size: 62px;
+            span{
+                color: orange;
+            }
+        }
+        p{
+            color: white;
+        }
     }
 }

@@ -139,7 +139,6 @@ main .main-top {
 main .main-top h1 {
   color: #08707F;
   padding-bottom: 10px;
-  font-size: 30px;
 }
 main .main-bottom {
   margin-top: 70px;
@@ -147,7 +146,6 @@ main .main-bottom {
 main .main-bottom h1 {
   color: #08707F;
   padding-bottom: 10px;
-  font-size: 30px;
 }
 main .main-bottom .main-contain {
   display: flex;
@@ -188,9 +186,32 @@ main .main-bottom .main-contain .main-right-contain img {
   gap: 30px;
   margin-top: 30px;
 }
-.group-img img {
+
+img {
   width: 313px;
   height: 200px;
+}
+
+header {
+  background-image: url(../../images/home/bg.png);
+  background-size: cover;
+  height: 85vh;
+}
+header .content {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7803921569) 30%, rgba(0, 0, 0, 0.0901960784) 100%, #000000 100%);
+  height: 100%;
+  padding: 150px 500px 100px 150px;
+}
+header .content h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 62px;
+}
+header .content h1 span {
+  color: orange;
+}
+header .content p {
+  color: white;
 }
 
 .aside-top,
@@ -201,7 +222,6 @@ main .main-bottom .main-contain .main-right-contain img {
 .aside-bottom h1 {
   color: #08707F;
   padding-bottom: 10px;
-  font-size: 30px;
 }
 .aside-top h4,
 .aside-bottom h4 {
@@ -237,5 +257,4 @@ section .text-section {
 section .text-section h1 {
   color: #08707F;
   padding-bottom: 10px;
-  font-size: 30px;
 }/*# sourceMappingURL=about.css.map */

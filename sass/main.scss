@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: sans-serif;
 }
 body{
     display: flex;
@@ -14,3 +14,8 @@ body{
 @import "components/navbar";
 @import "components/card";
 @import "components/footer";
+@import "components/header";
+@import "components/container";
+@import "components/open-time";
+@import "components/donate";
+@import "components/location"
