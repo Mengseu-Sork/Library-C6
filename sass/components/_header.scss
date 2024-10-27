@@ -1,0 +1,24 @@
+.bg{
+    @include bg;
+}
+.header-section {
+    margin-top: 50px;
+  
+    h1 {
+        color: $coor-link;
+        margin: 10px 0;
+        font-size: 30px;
+    }
+}
+  
+    .group-img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 30px;
+  
+    img {
+        width: 313px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,35 @@
+.aside-top,
+.aside-bottom {
+    margin-top: 55px;
+
+    h1 {
+        color: $coor-link;
+        padding-bottom: 10px;
+        @include font-h;
+    }
+
+    h4 {
+        margin-bottom: 15px;
+    }
+}
+.aside-bottom{
+    margin-top: 70px;
+}
+.aside-contain {
+    display: flex;
+
+    .aside-left-contain {
+        p {
+        padding-bottom: 15px;
+        width: 95%;
+        color: $colore-p;
+        }
+    }
+
+    .aside-right-contain {
+        img {
+            width: 400px;
+            height: 280px;
+        }
+    }
+}
