@@ -1,0 +1,68 @@
+// navbar//
+.navbar {
+    background-color: $navbar;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+    .nav-left {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        padding: 40px;
+    
+        .logo img {
+            width: 60px;
+            height: 60px;
+            margin-left: 50px;
+        }
+    
+        h2 {
+            color: $color-logo;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+    }
+  
+    .nav-right {
+        width: 60%;
+        display: flex;
+        margin-left: 20px;
+    
+        ul {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+    
+            li {
+                margin-right: 20px;
+    
+                a {
+                    color: $coor-link;
+                    text-decoration: none;
+                    transition: color 0.3s;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                .active {
+                    color: $active;
+                    }
+            }
+        }
+    }
+  
+    .checkbtn {
+      font-size: 30px;
+      color: $coor-link;
+      cursor: pointer;
+      display: none;
+    }
+  
+    #check {
+      display: none;
+    }
+  }
+// end navbar//

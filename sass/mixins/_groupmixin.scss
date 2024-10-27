@@ -1,0 +1,8 @@
+@mixin display-conter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin bg{
+    height: 75vh;
+}
