@@ -5,10 +5,17 @@
 }
 @mixin bg{
     height: 75vh;
+<<<<<<< HEAD
     img{
         width: 100%;
         height: 70vh;}
 }
 @mixin font-h{
+=======
+}
+@mixin style-h2{
+    color: $color-h2;
+    margin-bottom: 20px;
+>>>>>>> sreypich
     font-size: 30px;
 }

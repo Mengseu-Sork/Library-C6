@@ -1,0 +1,25 @@
+.time-open{
+    text-align: center;
+    padding: 0 150px;
+    height: 50vh;
+    h2{
+        @include style-h2;
+    }
+    table{
+        border-collapse: collapse;
+        width: 60%;
+        margin: auto;
+        tr{
+            th{
+                border: 1px solid;
+                padding: 15px;
+                text-align: left;
+            }
+            td{
+                border: 1px solid;
+                padding: 15px;
+                text-align: left;
+            }
+        }
+    }
+}
