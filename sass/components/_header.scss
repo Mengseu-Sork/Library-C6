@@ -30,15 +30,15 @@ header{
         height: 100%;
         padding: 150px 500px 100px 150px;
         h1{
-            color: white;
+            color: $footer-h4;
             margin-bottom: 20px;
             font-size: 62px;
             span{
-                color: orange;
+                color: $active;
             }
         }
         p{
-            color: white;
+            color: $footer-h4;
         }
     }
 }

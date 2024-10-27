@@ -175,7 +175,7 @@ header .content h1 {
   font-size: 62px;
 }
 header .content h1 span {
-  color: orange;
+  color: #D47907;
 }
 header .content p {
   color: white;
@@ -242,7 +242,7 @@ header .content p {
 .donate .form-container {
   height: 75vh;
   display: flex;
-  border: 1px solid grey;
+  border: 1px solid #4A4A4A;
 }
 .donate .form-container form {
   flex: 1;
@@ -259,8 +259,8 @@ header .content p {
 .donate .form-container form .information input {
   padding: 8px 10px;
   width: 210px;
-  background: rgb(243, 243, 243);
-  border: 1px solid gray;
+  background: #FCFCFC;
+  border: 1px solid #4A4A4A;
   border-radius: 5px;
 }
 .donate .form-container form .donate-information {
@@ -290,8 +290,8 @@ header .content p {
   flex-direction: column;
 }
 .donate .form-container form .purpose textarea {
-  background: rgb(243, 243, 243);
-  border: 1px solid gray;
+  background: #FCFCFC;
+  border: 1px solid #4A4A4A;
   border-radius: 5px;
 }
 .donate .form-container .form-right {
@@ -303,7 +303,7 @@ header .content p {
   align-items: flex-end;
 }
 .donate .form-container .form-right .content {
-  background-color: blue;
+  background-color: #22BBEA;
   padding: 20px;
 }
 
