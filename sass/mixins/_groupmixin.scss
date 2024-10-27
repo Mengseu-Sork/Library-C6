@@ -6,3 +6,8 @@
 @mixin bg{
     height: 75vh;
 }
+@mixin style-h2{
+    color: $color-h2;
+    margin-bottom: 20px;
+    font-size: 30px;
+}

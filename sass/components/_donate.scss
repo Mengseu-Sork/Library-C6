@@ -1,0 +1,75 @@
+.donate{
+    height: 100vh;
+    padding: 0 150px;
+    h2{
+        @include style-h2;
+    }
+    .form-container{
+        height: 75vh;
+        display: flex;
+        border: 1px solid grey;
+        form{
+            flex: 1;
+            padding: 10px 40px;
+            h4{
+                margin-top: 20px;
+            }
+            .information{
+                display: flex;
+                gap: 20px;
+                margin-top: 15px;
+                input{
+                    padding: 8px 10px;
+                    width: 210px;
+                    background: rgb(243, 243, 243);
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                }
+            }
+            .donate-information{
+                margin-bottom: 10px;
+            }
+            .choie{
+                display: flex;
+                gap: 60px;
+                input[type="radio"]{
+                    margin-right: 10px;
+                }
+            }
+            .budget-pay{
+                display: flex;
+                .left{
+                    flex: 5;
+                }
+                .right{
+                    flex: 0.5;
+                    span{
+                        font-size: 8px;
+                    }
+                }
+            }
+            .purpose{
+                display: flex;
+                flex-direction: column;
+                textarea{
+                    background: rgb(243, 243, 243);
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .form-right{
+            flex: 1;
+            background-image: url(../../images/home/form.png);
+            background-size: cover;
+            padding: 0 70px 10px 20px;
+            display: flex;
+            align-items: flex-end;
+            .content{
+                background-color: blue;
+                padding: 20px;
+                
+            }
+        }
+    }
+}
