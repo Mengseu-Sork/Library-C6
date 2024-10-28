@@ -30,7 +30,7 @@ body {
   margin-left: 50px;
 }
 .navbar .nav-left h2 {
-  color: #D47907;
+  color: #FD9E04;
   margin-left: 20px;
   font-size: 20px;
 }
@@ -57,7 +57,7 @@ body {
   font-size: 20px;
 }
 .navbar .nav-right ul li .active {
-  color: #D47907;
+  color: #FD9E04;
 }
 .navbar .checkbtn {
   font-size: 30px;

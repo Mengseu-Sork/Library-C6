@@ -30,7 +30,7 @@ body {
   margin-left: 50px;
 }
 .navbar .nav-left h2 {
-  color: #D47907;
+  color: #FD9E04;
   margin-left: 20px;
   font-size: 20px;
 }
@@ -57,7 +57,7 @@ body {
   font-size: 20px;
 }
 .navbar .nav-right ul li .active {
-  color: #D47907;
+  color: #FD9E04;
 }
 .navbar .checkbtn {
   font-size: 30px;
@@ -167,7 +167,7 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   margin-bottom: 20px;
 }
 .form-logo h3 {
-  color: #D47907;
+  color: #FD9E04;
 }
 
 .form {
@@ -322,10 +322,10 @@ header .content {
 header .content h1 {
   color: white;
   margin-bottom: 20px;
-  font-size: 62px;
+  font-size: 50px;
 }
 header .content h1 span {
-  color: #D47907;
+  color: #FD9E04;
 }
 header .content p {
   color: white;
