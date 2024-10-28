@@ -33,3 +33,57 @@
         }
     }
 }
+
+
+.top-recommend {
+    @include display-conter;
+    flex-direction: row;
+    background: $color-bg;
+    height: 90vh;
+    margin-bottom: 50px;
+    .history {
+        width: 50%;
+        @include display-conter;
+        img {
+            width: 320px;
+            height: 450px;
+        }
+    }
+    .content {
+        @include display-conter;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 50%;
+        height: 90vh;
+        padding: 0px 50px 0px 50px;
+        gap: 6px;
+        h3 {
+            width: 400px;
+            padding: 40px 0 10px 0;
+        }
+        p {
+           font-size: 12px; 
+        }
+        img {
+            width: 140px;
+            height: 30px;
+            margin: 10px 0 10px 0;
+        }
+        #sid {
+            font-size: 16px;
+            width: 300px;
+        }
+        .review {
+            @include display-conter;
+            align-items: flex-start;
+            flex-direction: row;
+            margin-top: 20px;
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+            }
+        }
+    }
+}

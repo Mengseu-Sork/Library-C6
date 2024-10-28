@@ -11,13 +11,6 @@ body {
   height: auto;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  margin: 10px 30px;
-  padding: 10px 30px;
-}
-
 .navbar {
   background-color: #FCFCFC;
   height: 15vh;
@@ -37,7 +30,7 @@ section {
   margin-left: 50px;
 }
 .navbar .nav-left h2 {
-  color: #FD9E04;
+  color: #D47907;
   margin-left: 20px;
   font-size: 20px;
 }
@@ -64,7 +57,7 @@ section {
   font-size: 20px;
 }
 .navbar .nav-right ul li .active {
-  color: #FD9E04;
+  color: #D47907;
 }
 .navbar .checkbtn {
   font-size: 30px;
@@ -188,6 +181,94 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   margin-right: 20px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+main .main-top {
+  display: flex;
+  flex-direction: column;
+}
+main .main-top h1 {
+  color: #08707F;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+main .main-bottom {
+  margin-top: 70px;
+}
+main .main-bottom h1 {
+  color: #08707F;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+main .main-bottom .main-contain {
+  display: flex;
+}
+main .main-bottom .main-contain .main-left-contain p {
+  padding-bottom: 15px;
+  width: 95%;
+}
+main .main-bottom .main-contain .main-right-contain {
+  margin-right: 50px;
+}
+main .main-bottom .main-contain .main-right-contain img {
+  width: 300px;
+  height: 190px;
+  border-radius: 5px;
+}
+
+.bg {
+  height: 75vh;
+}
+.bg img {
+  width: 100%;
+  height: 70vh;
+}
+
+.header-section {
+  margin-top: 50px;
+}
+.header-section h1 {
+  color: #08707F;
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.group-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+img {
+  width: 313px;
+  height: 200px;
+}
+
+header {
+  background-image: url(../../images/home/bg.png);
+  background-size: cover;
+  height: 85vh;
+}
+header .content {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7803921569) 30%, rgba(0, 0, 0, 0.0901960784) 100%, #000000 100%);
+  height: 100%;
+  padding: 150px 500px 100px 150px;
+}
+header .content h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 62px;
+}
+header .content h1 span {
+  color: #D47907;
+}
+header .content p {
+  color: white;
+}
+
 .aside-top,
 .aside-bottom {
   margin-top: 55px;
@@ -279,4 +360,19 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-}/*# sourceMappingURL=contact.css.map */
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 60px;
+  padding: 20px 70px;
+}
+section .text-section {
+  margin-bottom: 60px;
+}
+section .text-section h1 {
+  color: #08707F;
+  padding-bottom: 10px;
+  font-size: 30px;
+}/*# sourceMappingURL=about.css.map */

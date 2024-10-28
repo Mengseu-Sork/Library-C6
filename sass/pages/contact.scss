@@ -9,8 +9,15 @@ body{
     flex-direction: column;
     height: auto;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    padding: 10px 30px;
+}
 @import "../components/variable";
 @import "../mixins/groupmixin";
 @import "../components/navbar";
 @import "../components/card";
 @import "../components/footer";
+@import "../components/aside";

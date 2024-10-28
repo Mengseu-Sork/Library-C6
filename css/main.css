@@ -106,6 +106,57 @@ body {
   color: #4A4A4A;
 }
 
+.buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.buttom .recommend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+.buttom img {
+  width: 250px;
+  height: 374px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.buttom h3 {
+  color: #D47907;
+}
+.buttom p {
+  width: 150px;
+  font-size: 11.5px;
+}
+.buttom .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 250px;
+}
+.buttom .text p {
+  width: 280px;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.buttom .text button {
+  border-style: none;
+  background: #D47907;
+  height: 25px;
+  width: 80px;
+  border-radius: 20px;
+  font-size: 10px;
+  box-shadow: 0px 1px 2px 0px black;
+}
+
 footer {
   background-color: #171D35;
   height: 20vh;
