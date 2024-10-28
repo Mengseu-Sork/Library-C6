@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PNC Library</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="../css/booking.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-left">
             <div class="logo">
-                <img src="images/home/logo.png" alt="PNC Library Logo">
+                <img src="../images/home/logo.png" alt="PNC Library Logo">
             </div>
             <h2>PNC LIBRARY</h2>
         </div>
@@ -22,16 +23,120 @@
             </label>
             <ul>
                 <li><a href="../index.html">HOME</a></li>
-                <li><a href="contact.html">PAGES</a></li>
+                <li><a class="active" href="contact.html">PAGES</a></li>
                 <li><a href="about.html">ABOUT US</a></li>
             </ul>
         </div>
     </nav>
-    <header>
-        
+    <header class="header-bg">
+        <h1>Type of Book</h1>
     </header>
-    <section>
-        <h1>hello</h1>
+    <section class="form-section">
+        <form action="#">
+            <div class="form-nav">
+                <h1>Booking Book</h1>
+                <div class="form-logo">
+                    <img src="../images/home/logo.png" alt="">
+                    <h3>LIBRARY</h3>
+                </div>
+            </div>
+            <div class="form">
+                <div class="form-left">
+                    <h3>Personal Information</h3>
+                    <div class="form-input">
+                        <div class="input">
+                            <div class="group-input">
+                                <label for="name">First Name</label>
+                                <input type="text" id="name" placeholder="First name">
+                            </div>
+                            <div class="group-input">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" id="lastname" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <div class="group-input">
+                                <label for="gender">Gender</label>
+                                <input type="text" id="gender" placeholder="Gender">
+                            </div>
+                            <div class="group-input">
+                                <label for="age">Age</label>
+                                <input type="text" id="age" placeholder="Age">
+                            </div>
+                        </div>
+                        <div class="group-text">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="group-text">
+                            <label for="number">Phone number</label>
+                            <input type="number" id="number" placeholder="Phone number">
+                        </div>
+                        <div class="group-text">
+                            <label for="address">Address</label>
+                            <input type="address" id="address" placeholder="Address">
+                        </div>
+                        <div class="group-text">
+                            <label for="More information">More information</label>
+                            <input type="information" id="More information" placeholder="More information">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-right">
+                    <h3>Library booking</h3>
+                    <div class="group-text">
+                        <label for="date">Date Borrow</label>
+                        <input type="date" id="date" placeholder="date">
+                    </div>
+                    <div class="group-text">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" placeholder="time">
+                    </div>
+                    <div class="group-text">
+                        <label for="date">Date Paid</label>
+                        <input type="date" id="date" placeholder="date">
+                    </div>
+                    <div class="group-text">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" placeholder="time">
+                    </div>
+                    <div class="radio">
+                        <h4>Types</h4>
+                        <div class="group-radio">
+                            <div class="choose choose1">
+                                <input type="radio" id="radio">
+                                <label for="radio">English book</label>
+                            </div>
+                            <div class="choose choose2">
+                                <input type="radio" id="radio">
+                                <label for="radio">History book</label>
+                            </div>
+                        </div>
+                        <div class="group-radio">
+                            <div class="choose choose3">
+                                <input type="radio" id="radio">
+                                <label for="radio">Fairy tale book</label>
+                            </div>
+                            <div class="choose choose4">
+                                <input type="radio" id="radio">
+                                <label for="radio">Novel book</label>
+                            </div>
+                        </div>
+                        <div class="group-radio">
+                            <div class="choose choose5">
+                                <input type="radio" id="radio">
+                                <label for="radio">Business book</label>
+                            </div>
+                            <div class="choose choose6">
+                                <input type="radio" id="radio">
+                                <label for="radio">More  ......</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <button class="btn">BOOKING</button>
     </section>
     <footer>
         <div class="footer-left">

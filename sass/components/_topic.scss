@@ -1,0 +1,11 @@
+.main-content {
+    @include display-conter;
+    background: $color-main;
+    width:280px;
+    padding: 10px;
+    border-radius: 5px;
+    h1 {
+        @include display-conter;
+        color: $coo-main;
+    }
+}

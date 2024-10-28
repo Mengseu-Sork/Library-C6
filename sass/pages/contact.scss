@@ -12,8 +12,8 @@ body{
 section{
     display: flex;
     flex-direction: column;
-    margin: 10px 30px;
-    padding: 10px 30px;
+    margin: 20px 60px;
+    padding: 20px 60px;
 }
 @import "../components/variable";
 @import "../mixins/groupmixin";
@@ -21,3 +21,4 @@ section{
 @import "../components/card";
 @import "../components/footer";
 @import "../components/aside";
+@import "../components/topic";
