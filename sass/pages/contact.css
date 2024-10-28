@@ -1,19 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: serif;
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: auto;
 }
 
@@ -28,21 +22,13 @@ section {
   background-color: #FCFCFC;
   height: 15vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .navbar .nav-left {
   width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding: 40px;
 }
 .navbar .nav-left .logo img {
@@ -57,22 +43,14 @@ section {
 }
 .navbar .nav-right {
   width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 20px;
 }
 .navbar .nav-right ul {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
   list-style: none;
 }
 .navbar .nav-right ul li {
@@ -81,7 +59,6 @@ section {
 .navbar .nav-right ul li a {
   color: #08707F;
   text-decoration: none;
-  -webkit-transition: color 0.3s;
   transition: color 0.3s;
   font-weight: bold;
   font-size: 20px;
@@ -101,40 +78,23 @@ section {
 
 .group-card {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
   margin-top: 30px;
 }
 .group-card .card {
   width: 290px;
   height: 370px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border: 1px solid #171D35;
   border-radius: 10px;
-  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, #171D35 0px 1px 3px -1px;
-          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, #171D35 0px 1px 3px -1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, #171D35 0px 1px 3px -1px;
 }
 .group-card .card img {
   margin-bottom: 40px;
@@ -150,7 +110,7 @@ section {
   width: 70%;
   font-size: 12px;
   text-align: center;
-  color: rgba(74, 74, 74, 0.8705882353);
+  color: #4A4A4A;
 }
 
 .buttom {
@@ -209,28 +169,15 @@ footer {
   background-color: #171D35;
   height: 20vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
 }
 footer .footer-left, footer .footer-conter, footer .footer-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 footer .footer-left h4, footer .footer-conter h4, footer .footer-right h4 {
   color: white;
@@ -240,9 +187,6 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   width: 30px;
   height: 30px;
   margin-right: 20px;
-<<<<<<< HEAD
-}
-=======
 }
 
 .aside-top,
@@ -379,4 +323,3 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   justify-content: center;
   color: #414141;
 }/*# sourceMappingURL=contact.css.map */
->>>>>>> samnoeun

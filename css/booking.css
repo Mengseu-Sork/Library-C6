@@ -146,6 +146,58 @@ body {
   color: rgba(74, 74, 74, 0.8705882353);
 }
 
+.buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.buttom .recommend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+.buttom img {
+  width: 200px;
+  height: 324px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.buttom h3 {
+  color: #FD9E04;
+}
+.buttom p {
+  width: 150px;
+  font-size: 11px;
+}
+.buttom .text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 200px;
+}
+.buttom .text p {
+  width: 160px;
+  font-size: 14px;
+  margin-top: 6px;
+}
+.buttom .text button {
+  border-style: none;
+  background: #c88c0b;
+  color: white;
+  height: 23px;
+  width: 70px;
+  border-radius: 20px;
+  font-size: 10px;
+  box-shadow: 0px 1px 2px 0px black;
+}
+
 footer {
   background-color: #171D35;
   height: 20vh;
