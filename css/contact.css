@@ -241,8 +241,11 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   height: 30px;
   margin-right: 20px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
+=======
+>>>>>>> samnoeun
 }
 
 .aside-top,
@@ -372,6 +375,7 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   width: 280px;
   padding: 10px;
   border-radius: 5px;
+  margin: 20px 0px 20px 0px;
 }
 .main-content h1 {
   display: flex;
@@ -379,4 +383,10 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   justify-content: center;
   color: #414141;
 }/*# sourceMappingURL=contact.css.map */
+<<<<<<< HEAD
+>>>>>>> samnoeun
+=======
+=======
+}
+>>>>>>> sreypich
 >>>>>>> samnoeun
