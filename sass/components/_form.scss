@@ -93,13 +93,13 @@ input[type=age],
 input[type=number],
 input[type=address],
 input[type=information] {
-    width: 89%;
+    width: 88%;
 }
   
 .group-text {
     display: flex;
     flex-direction: column;
-    margin-left: 54px;
+    margin-left: 60px;
     margin-top: 20px;
 }
   
@@ -149,8 +149,8 @@ input[type=time] {
 .btn {
     background-color: $coor-link;
     color: $footer-h4;
-    width: 90%;
-    margin-left: 55px;
+    width: 89%;
+    margin-left: 60px;
     padding: 10px;
     margin-bottom: 30px;
     border: none;
