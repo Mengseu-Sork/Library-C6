@@ -235,12 +235,6 @@ main .main-bottom .main-contain .main-right-contain img {
   margin: 10px 0;
   font-size: 30px;
 }
-
-.group-img {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;}
-
 .header-section .group-img {
   display: flex;
   flex-wrap: wrap;

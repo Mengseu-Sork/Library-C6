@@ -316,6 +316,7 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   width: 280px;
   padding: 10px;
   border-radius: 5px;
+  margin: 20px 0px 20px 0px;
 }
 .main-content h1 {
   display: flex;
