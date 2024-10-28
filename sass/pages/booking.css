@@ -103,7 +103,7 @@ body {
   width: 70%;
   font-size: 12px;
   text-align: center;
-  color: #4A4A4A;
+  color: rgba(74, 74, 74, 0.8705882353);
 }
 
 .buttom {
@@ -158,6 +158,36 @@ body {
   box-shadow: 0px 1px 2px 0px black;
 }
 
+.bookes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bookes .book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+.bookes img {
+  width: 200px;
+  height: 324px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.bookes h3 {
+  color: #FD9E04;
+}
+.bookes p {
+  width: 150px;
+  font-size: 11px;
+}
+
 footer {
   background-color: #171D35;
   height: 20vh;
@@ -187,7 +217,7 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   display: flex;
   flex-direction: column;
   margin: 60px 120px;
-  border: 1px solid #4A4A4A;
+  border: 1px solid rgba(74, 74, 74, 0.8705882353);
   border-radius: 10px;
   background-color: #FCFCFC;
 }
@@ -202,7 +232,7 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   align-items: center;
   justify-content: center;
   font-size: 30px;
-  color: #4A4A4A;
+  color: rgba(74, 74, 74, 0.8705882353);
   margin-left: 50px;
 }
 
@@ -225,16 +255,16 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
 .form {
   width: 100%;
   display: flex;
-  border-top: 1px solid #4A4A4A;
+  border-top: 1px solid rgba(74, 74, 74, 0.8705882353);
 }
 .form .form-left, .form .form-right {
   width: 50%;
-  border-right: 1px solid #4A4A4A;
+  border-right: 1px solid rgba(74, 74, 74, 0.8705882353);
 }
 .form h3 {
   text-align: center;
   padding: 30px;
-  color: #4A4A4A;
+  color: rgba(74, 74, 74, 0.8705882353);
 }
 
 .form-input {
@@ -263,7 +293,7 @@ input[type=information] {
   margin-top: 5px;
   padding: 8px;
   border-radius: 5px;
-  border: 1px solid #4A4A4A;
+  border: 1px solid rgba(74, 74, 74, 0.8705882353);
   background-color: white;
 }
 
@@ -288,7 +318,7 @@ input[type=time] {
   padding: 5px;
   margin-top: 5px;
   border-radius: 5px;
-  border: 1px solid #4A4A4A;
+  border: 1px solid rgba(74, 74, 74, 0.8705882353);
   background-color: white;
 }
 
@@ -393,6 +423,20 @@ header .content p {
   width: 20%;
   color: white;
   margin: 60px 80px;
+  padding-top: 60px;
+  font-size: 60px;
+  text-align: center;
+}
+
+#type {
+  height: 85vh;
+  background-image: url(/images/contact/image\ 136.png);
+  background-size: cover;
+}
+#type h1 {
+  width: 18%;
+  color: white;
+  margin: 80px 90px;
   padding-top: 60px;
   font-size: 60px;
   text-align: center;

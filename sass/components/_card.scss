@@ -83,3 +83,29 @@
       }
     }
 }
+ 
+.bookes {
+  @include display-conter;
+  flex-direction: row;
+  justify-content: space-between;
+  .book {
+    @include display-conter;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+    }
+    img {
+      width: 200px;
+      height: 324px;
+      border-radius: 10px;
+      margin-bottom: 8px;
+    }
+    h3 {
+      color: $active;
+    }
+    p {
+      width: 150px;
+      font-size: 11px;
+    }
+}
