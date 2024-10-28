@@ -2,14 +2,22 @@
     display: flex;
     padding: 150px;
     height: 100vh;
+    gap: 50px;
     .content{
         flex: 1;
+        margin-right: 30px;
         h2{
             @include style-h2;
         }
         p{
             text-align: justify;
+            margin-bottom: 60px;
         }
+        span{
+            font-size: 30px;
+            color: $colore-bd;
+        }
+
     }
     .icon{
         flex: 1;
