@@ -1,7 +1,7 @@
 .container{
     display: flex;
-    padding: 150px;
-    height: 100vh;
+    padding:100px 150px ;
+    height: 80vh;
     .content{
         flex: 1;
         h2{
@@ -17,8 +17,8 @@
         justify-content: flex-end;
         align-items: center;
         img{
-            width: 470px;
-            height: 450px;
+            width: 370px;
+            height: 300px;
         }
     }
 }
