@@ -306,23 +306,15 @@ header .content p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-<<<<<<< HEAD
-  padding: 150px;
-  height: 100vh;
   gap: 50px;
-=======
   padding: 100px 150px;
   height: 80vh;
->>>>>>> mengseu
 }
 .container .content {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-<<<<<<< HEAD
   margin-right: 30px;
-=======
->>>>>>> mengseu
 }
 .container .content h2 {
   color: #22BBEA;
@@ -612,8 +604,4 @@ label {
 }
 .location .bg-contact .contact a {
   color: #22BBEA;
-<<<<<<< HEAD
-  font-size: 20px;
-=======
->>>>>>> mengseu
-}
+  font-size: 20px;}
