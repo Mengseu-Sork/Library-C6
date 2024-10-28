@@ -5,10 +5,12 @@
         @include style-h2;
     }
     .form-container{
-        height: 75vh;
+        height: 80vh;
         display: flex;
-        border: 1px solid grey;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 12px;
         form{
+            border-radius: 20px;
             flex: 1;
             padding: 10px 40px;
             h4{
@@ -20,9 +22,9 @@
                 margin-top: 15px;
                 input{
                     padding: 8px 10px;
-                    width: 210px;
-                    background: rgb(243, 243, 243);
-                    border: 1px solid gray;
+                    width: 200px;
+                    background: $bg-input;
+                    border: 1px solid $color-bd;
                     border-radius: 5px;
                 }
             }
@@ -32,6 +34,8 @@
             .choie{
                 display: flex;
                 gap: 60px;
+                margin-top: 10px;
+                margin-bottom: 10px;
                 input[type="radio"]{
                     margin-right: 10px;
                 }
@@ -40,36 +44,83 @@
                 display: flex;
                 .left{
                     flex: 5;
+                    p{
+                        margin-bottom: 15px;
+                        font-size: 12;
+                    }
+                    span{
+                        font-size: 12;
+                    }
+                    .or{
+                        margin-left: 50px;
+                    }
                 }
                 .right{
                     flex: 0.5;
+                    img{
+                        width: 60px;
+                        height: 60px;
+                    }
                     span{
-                        font-size: 8px;
+                        font-size: 10px;
+                        color: $active;
                     }
                 }
             }
             .purpose{
                 display: flex;
                 flex-direction: column;
+                margin-bottom: 10px;
                 textarea{
-                    background: rgb(243, 243, 243);
+                    color: rgb(146, 146, 146);
+                    background: $bg-input;
                     border: 1px solid gray;
                     border-radius: 5px;
+                    padding: 10px;
+                }
+            }
+            .submit{
+                display: flex;
+                justify-content: space-between;
+                a{
+                    font-size: 12px;
+                }
+                button{
+                    padding: 7px 12px;
+                    color: $footer-h4;
+                    background-color: $active;
+                    border: none;
+                    border-radius: 5px;
+                    font-size: 12px;
                 }
             }
         }
         .form-right{
-            flex: 1;
+            flex: 1.2;
             background-image: url(../../images/home/form.png);
             background-size: cover;
-            padding: 0 70px 10px 20px;
+            padding: 0 80px 10px 20px;
             display: flex;
             align-items: flex-end;
+            border-radius: 0 12px 12px 0;
             .content{
-                background-color: blue;
+                background-color: $active;
                 padding: 20px;
+                *{
+                    color: $footer-h4;
+                }
+                h4{
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 14px;
+                    text-align: justify;
+                }
                 
             }
         }
     }
+}
+label{
+    font-size: 12px;
 }
