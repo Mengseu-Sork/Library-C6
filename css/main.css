@@ -268,7 +268,7 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
 header {
   background-image: url(../../images/home/bg.png);
   background-size: cover;
-  height: 85vh;
+  height: 80vh;
 }
 header .content {
   background: -webkit-gradient(linear, left top, right top, color-stop(30%, rgba(0, 0, 0, 0.7803921569)), color-stop(100%, rgba(0, 0, 0, 0.0901960784)), to(#000000));
@@ -306,15 +306,23 @@ header .content p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+<<<<<<< HEAD
   padding: 150px;
   height: 100vh;
   gap: 50px;
+=======
+  padding: 100px 150px;
+  height: 80vh;
+>>>>>>> mengseu
 }
 .container .content {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+<<<<<<< HEAD
   margin-right: 30px;
+=======
+>>>>>>> mengseu
 }
 .container .content h2 {
   color: #22BBEA;
@@ -344,8 +352,8 @@ header .content p {
           align-items: center;
 }
 .container .icon img {
-  width: 470px;
-  height: 450px;
+  width: 370px;
+  height: 300px;
 }
 
 .time-open {
@@ -604,5 +612,8 @@ label {
 }
 .location .bg-contact .contact a {
   color: #22BBEA;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+>>>>>>> mengseu
 }

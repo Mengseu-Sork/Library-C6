@@ -18,8 +18,13 @@ body {
 }
 
 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 20px 60px;
   padding: 20px 60px;
 }
@@ -154,19 +159,43 @@ section {
 }
 
 .buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .buttom .recommend {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 4px;
 }
 .buttom img {
@@ -183,10 +212,19 @@ section {
   font-size: 11px;
 }
 .buttom .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   width: 200px;
 }
 .buttom .text p {
@@ -202,7 +240,8 @@ section {
   width: 70px;
   border-radius: 20px;
   font-size: 10px;
-  box-shadow: 0px 1px 2px 0px black;
+  -webkit-box-shadow: 0px 1px 2px 0px black;
+          box-shadow: 0px 1px 2px 0px black;
 }
 
 footer {
@@ -240,12 +279,6 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   width: 30px;
   height: 30px;
   margin-right: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-=======
->>>>>>> samnoeun
 }
 
 .aside-top,
@@ -268,12 +301,14 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
 }
 
 .aside-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .aside-contain .aside-left-contain p {
   padding-bottom: 15px;
   width: 95%;
-  color: #4A4A4A;
+  color: rgba(74, 74, 74, 0.8705882353);
 }
 .aside-contain .aside-right-contain img {
   width: 400px;
@@ -281,31 +316,59 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
 }
 
 .top-recommend {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background: rgba(221, 243, 246, 0.231372549);
   height: 90vh;
   margin-bottom: 50px;
 }
 .top-recommend .history {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .top-recommend .history img {
   width: 320px;
   height: 450px;
 }
 .top-recommend .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   width: 50%;
   height: 90vh;
   padding: 0px 50px 0px 50px;
@@ -330,10 +393,19 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   width: 330px;
 }
 .top-recommend .content .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-top: 20px;
   gap: 26px;
 }
@@ -364,13 +436,20 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   width: 70px;
   border-radius: 20px;
   font-size: 10px;
-  box-shadow: 0px 1px 2px 0px black;
+  -webkit-box-shadow: 0px 1px 2px 0px black;
+          box-shadow: 0px 1px 2px 0px black;
 }
 
 .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #cdcdcd;
   width: 280px;
   padding: 10px;
@@ -378,15 +457,14 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   margin: 20px 0px 20px 0px;
 }
 .main-content h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #414141;
-}/*# sourceMappingURL=contact.css.map */
-<<<<<<< HEAD
->>>>>>> samnoeun
-=======
-=======
 }
->>>>>>> sreypich
->>>>>>> samnoeun
