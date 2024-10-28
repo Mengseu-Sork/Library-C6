@@ -2,9 +2,9 @@
     background-image: url(../../images/home/bgMap.png);
     .bg-contact{
         *{
-            color: white;
+            color: $footer-h4;
         }
-        background-color: rgba(0, 0, 0, 0.699);
+        background-color: $bg-loction;
         display: flex;
         gap: 20px;
         padding: 20px;

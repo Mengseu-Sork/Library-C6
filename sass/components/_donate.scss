@@ -9,6 +9,7 @@
         display: flex;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 12px;
+        border: 1px solid $colore-p;
         form{
             border-radius: 20px;
             flex: 1;
@@ -25,6 +26,9 @@
                     width: 200px;
                     background: $bg-input;
                     border: 1px solid $color-bd;
+                    width: 210px;
+                    background: $navbar;
+                    border: 1px solid $colore-p;
                     border-radius: 5px;
                 }
             }
@@ -75,6 +79,8 @@
                     color: rgb(146, 146, 146);
                     background: $bg-input;
                     border: 1px solid gray;
+                    background: $navbar;
+                    border: 1px solid $colore-p;
                     border-radius: 5px;
                     padding: 10px;
                 }
@@ -105,6 +111,7 @@
             border-radius: 0 12px 12px 0;
             .content{
                 background-color: $active;
+                background-color: $color-h2;
                 padding: 20px;
                 *{
                     color: $footer-h4;

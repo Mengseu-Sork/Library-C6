@@ -30,15 +30,30 @@ header{
         height: 100%;
         padding: 150px 500px 100px 150px;
         h1{
-            color: white;
+            color: $footer-h4;
             margin-bottom: 20px;
             font-size: 50px;
             span{
-                color: orange;
+                color: $active;
             }
         }
         p{
-            color: white;
+            color: $footer-h4;
         }
+    }
+}
+
+.header-bg {
+    height: 80vh;
+    background-image: url(../images/contact/image\ 136.png);
+    background-size: cover;
+  
+    h1 {
+        width: 20%;
+        color: white;
+        margin: 60px 80px;
+        padding-top: 60px;
+        font-size: 60px;
+        text-align: center;
     }
 }
