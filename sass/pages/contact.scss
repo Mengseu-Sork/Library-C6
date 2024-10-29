@@ -4,6 +4,16 @@
     box-sizing: border-box;
     font-family: serif;
 }
+@import "../components/variable";
+@import "../mixins/groupmixin";
+@import "../components/navbar";
+@import "../components/card";
+@import "../components/footer";
+@import "../components/aside";
+@import "../components/topic";
+@import "../components/header";
+@import "../components/button";
+
 body{
     display: flex;
     flex-direction: column;
@@ -13,18 +23,7 @@ body{
         flex-direction: column;
         margin: 20px 60px;
         padding: 20px 60px;
-        .type-book {
-            @include display-conter;
-            flex-direction: column
-        }
     }
 }
 
-@import "../components/variable";
-@import "../mixins/groupmixin";
-@import "../components/navbar";
-@import "../components/card";
-@import "../components/footer";
-@import "../components/aside";
-@import "../components/topic";
-@import "../components/header";
+
