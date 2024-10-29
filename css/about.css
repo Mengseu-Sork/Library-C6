@@ -575,7 +575,7 @@ section .text-section h1 {
   .navbar .nav-left .logo img {
     width: 50px;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   .bg {
     height: 30vh;
@@ -589,7 +589,7 @@ section .text-section h1 {
     margin: 25px;
   }
   .group-card {
-    gap: 20px;
+    gap: 25px;
   }
   .group-card .card {
     width: 35%;
@@ -661,5 +661,98 @@ section .text-section h1 {
   }
   h1 {
     font-size: 26px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar {
+    height: 8vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #333;
+    color: white;
+  }
+  .navbar .nav-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 0px;
+  }
+  .navbar .nav-left .logo img {
+    margin-top: 2px;
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+  .navbar .nav-left h2 {
+    font-size: 12px;
+    color: white;
+    margin-top: 4px;
+    margin-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .navbar .nav-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 30px;
+    margin-top: 5px;
+  }
+  .navbar .nav-right .checkbtn {
+    display: block;
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+  }
+  .navbar .nav-right ul {
+    position: fixed;
+    top: 30px;
+    right: -100%;
+    background-color: teal;
+    width: 24%;
+    height: 15vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  .navbar .nav-right ul li {
+    margin-left: 12px;
+  }
+  .navbar .nav-right ul li a {
+    color: white;
+    font-size: 8px;
+    text-decoration: none;
+  }
+  .navbar .nav-right #check {
+    display: none;
+  }
+  .navbar .nav-right #check:checked ~ ul {
+    right: 0;
   }
 }
