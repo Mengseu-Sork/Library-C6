@@ -56,3 +56,17 @@ header{
         text-align: center;
     }
 }
+
+#type {
+    height: 85vh;
+    background-image: url(/images/contact/image\ 136.png);
+    background-size: cover;
+    h1 {
+        width: 18%;
+        color: $footer-h4;
+        margin: 80px 90px;
+        padding-top: 60px;
+        font-size: 60px;
+        text-align: center;
+    }
+}
