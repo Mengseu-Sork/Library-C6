@@ -54,6 +54,8 @@
         }
     }
     .main-contain{
+      display: flex;
+      flex-direction: column;
         .main-left-contain {
           p {
             font-size: 14px;
@@ -107,4 +109,12 @@
       font-size: 26px;
     }
 }
+
+
+
+
+
+
+
+
 
