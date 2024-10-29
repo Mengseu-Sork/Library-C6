@@ -1,66 +1,17 @@
 @media (max-width: 768px) {
     .navbar {
-      background-color: $navbar;
       height: 10vh;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
   
       .nav-left {
         width: 50%;
-        display: flex;
-        align-items: center;
-  
-        h2 {
-          margin-left: 20px;
-          font-size: 20px;
-        }
   
         .logo img {
-          width: 60px;
-          height: 60px;
+          width: 50px;
+          height: 50px;
           margin-left: 20px;
         }
       }
-  
-      .nav-right {
-        width: 60%;
-        display: flex;
-        margin-left: 20px;
-  
-        ul {
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: space-evenly;
-          list-style: none;
-  
-          li {
-            margin-right: 20px;
-  
-            a {
-              color: $coor-link;
-              text-decoration: none;
-              transition: color 0.3s;
-  
-              &:hover {
-                color: $active;
-              }
-            }
-          }
-        }
-      }
-  
-      // .checkbtn {
-      //   font-size: 30px;
-      //   color: $footer-h4;
-      //   cursor: pointer;
-      //   display: none;
-      // }
-  
-      // #check {
-      //   display: none;
-      // }
+
     }
   
     .bg {
@@ -74,47 +25,26 @@
     section {
         width: 95%;
         margin: 25px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
   
     .group-card {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
         gap: 20px;
   
         .card {
-            width: 45%;
+            width: 35%;
             height: 30vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid $bg-footer;
-            border-radius: 10px;
-            box-shadow: $bg-footer;
   
             img {
                 width: 50px;
                 height: 50px;
-                margin-bottom: 40px;
             }
   
             h4 {
-                width: 70%;
                 font-size: 12px;
-                text-align: center;
-                margin-bottom: 50px;
             }
     
             p {
-                width: 70%;
                 font-size: 10px;
-                text-align: center;
                 }
         }
   
@@ -124,8 +54,6 @@
         }
     }
     .main-contain{
-        display: flex;
-        flex-direction: column;
         .main-left-contain {
           p {
             font-size: 14px;
@@ -137,8 +65,8 @@
             text-align: center;
             img {
                 margin-top: 10px;
-                width: 590px;
-                height: 240px;
+                width: 550px;
+                height: 300px;
             }
         }
       
@@ -178,4 +106,5 @@
     h1 {
       font-size: 26px;
     }
-  }
+}
+
