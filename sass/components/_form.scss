@@ -73,6 +73,7 @@
 .group-input {
     display: flex;
     flex-direction: column;
+    width: 37%;
   }
   
 input[type=text],
@@ -93,7 +94,7 @@ input[type=age],
 input[type=number],
 input[type=address],
 input[type=information] {
-    width: 89%;
+    width: 91%;
 }
   
 .group-text {
