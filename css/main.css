@@ -147,19 +147,43 @@ body {
 }
 
 .buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .buttom .recommend {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 4px;
 }
 .buttom img {
@@ -176,10 +200,19 @@ body {
   font-size: 11px;
 }
 .buttom .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   width: 200px;
 }
 .buttom .text p {
@@ -195,7 +228,8 @@ body {
   width: 70px;
   border-radius: 20px;
   font-size: 10px;
-  box-shadow: 0px 1px 2px 0px black;
+  -webkit-box-shadow: 0px 1px 2px 0px black;
+          box-shadow: 0px 1px 2px 0px black;
 }
 
 footer {
@@ -327,7 +361,7 @@ header .content p {
 }
 .container .content span {
   font-size: 30px;
-  color: rgba(74, 74, 74, 0.8705882353);
+  color: rgba(182, 182, 182, 0.795);
 }
 .container .icon {
   -webkit-box-flex: 1;
@@ -604,4 +638,286 @@ label {
 }
 .location .bg-contact .contact a {
   color: #22BBEA;
-  font-size: 20px;}
+  font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    height: 10vh;
+    width: 100%;
+  }
+  .navbar .nav-left {
+    width: 50%;
+  }
+  .navbar .nav-left h2 {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .navbar .nav-left .logo img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .navbar .nav-right {
+    width: 60%;
+    margin-left: 20px;
+  }
+  .navbar .nav-right ul {
+    width: 100%;
+  }
+  .navbar .nav-right ul li {
+    margin-right: 20px;
+  }
+  .navbar .nav-right ul li a {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .navbar .nav-right ul li a:hover {
+    color: #FD9E04;
+  }
+  .navbar .checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  .navbar #check {
+    display: none;
+  }
+  header {
+    height: 40vh;
+  }
+  header .content {
+    padding: 10% 35% 20% 10%;
+  }
+  header .content h1 {
+    font-size: 30px;
+  }
+  header .content p {
+    font-size: 12px;
+  }
+  .container {
+    gap: 5%;
+    padding: 10%;
+    height: 42vh;
+  }
+  .container .content {
+    margin-right: 5%;
+  }
+  .container .content h2 {
+    font-size: 20px;
+  }
+  .container .content p {
+    font-size: 14px;
+  }
+  .container .content span {
+    font-size: 20px;
+  }
+  .container .icon {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .container .icon img {
+    width: 290px;
+    height: 280px;
+  }
+  .time-open {
+    padding: 0 10%;
+    height: 20vh;
+  }
+  .time-open h2 {
+    font-size: 20px;
+  }
+  .time-open table {
+    width: 70%;
+  }
+  .time-open table tr td {
+    padding: 15px;
+  }
+  .time-open table tr td:nth-child(1) {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  .time-open table tr td:nth-child(2) {
+    padding-left: 50px;
+    font-size: 16px;
+  }
+  .donate {
+    height: 50vh;
+    padding: 0 10%;
+  }
+  .donate h2 {
+    font-size: 20px;
+  }
+  .donate .form-container {
+    height: 40vh;
+  }
+  .donate .form-container form {
+    border-radius: 20px;
+    padding: 5px 20px;
+  }
+  .donate .form-container form h4 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .donate .form-container form .information {
+    gap: 10px;
+    margin-top: 5px;
+  }
+  .donate .form-container form .information input {
+    padding: 4px 6px;
+    border: 0.5px solid rgba(182, 182, 182, 0.795);
+    width: 100%;
+    border-radius: 3px;
+    font-size: 10px;
+  }
+  .donate .form-container form .donate-information {
+    margin-bottom: 5px;
+  }
+  .donate .form-container form .choie {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .donate .form-container form .choie input[type=radio] {
+    margin-right: 0;
+  }
+  .donate .form-container form .choie span {
+    font-size: 10px;
+  }
+  .donate .form-container form .budget-pay .left {
+    -webkit-box-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+  }
+  .donate .form-container form .budget-pay .left p {
+    margin-bottom: 0;
+    font-size: 10px;
+  }
+  .donate .form-container form .budget-pay .left span {
+    font-size: 10px;
+  }
+  .donate .form-container form .budget-pay .left .or {
+    margin-left: 20%;
+    font-size: 14px;
+  }
+  .donate .form-container form .budget-pay .right {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .donate .form-container form .budget-pay .right img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .donate .form-container form .budget-pay .right span {
+    font-size: 6px;
+    color: #FD9E04;
+  }
+  .donate .form-container form .purpose {
+    margin-bottom: 10px;
+  }
+  .donate .form-container form .purpose textarea {
+    border-radius: 5px;
+    padding: 2px 5px;
+  }
+  .donate .form-container form .submit a {
+    font-size: 10px;
+  }
+  .donate .form-container form .submit button {
+    padding: 4px 6px;
+    border-radius: 3px;
+    font-size: 8px;
+  }
+  .donate .form-container .form-right {
+    padding: 0 10% 1.5% 2.5%;
+    border-radius: 0 12px 12px 0;
+  }
+  .donate .form-container .form-right .content {
+    padding: 15px;
+  }
+  .donate .form-container .form-right .content h4 {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .donate .form-container .form-right .content p {
+    font-size: 10px;
+  }
+  label {
+    font-size: 10px;
+  }
+  .location {
+    background-size: cover;
+  }
+  .location .bg-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    padding: 2vh;
+    height: 30vh;
+  }
+  .location .bg-contact .map {
+    border-radius: 15px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 100px;
+    height: 26vh;
+  }
+  .location .bg-contact .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-flex: 1.2;
+        -ms-flex: 1.2;
+            flex: 1.2;
+  }
+  .location .bg-contact .contact * {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .location .bg-contact .contact h1 {
+    font-size: 30px;
+  }
+  .location .bg-contact .contact h1 span {
+    color: #FD9E04;
+  }
+  .location .bg-contact .contact p {
+    font-size: 14px;
+  }
+  .location .bg-contact .contact a {
+    font-size: 14px;
+  }
+  footer {
+    height: 8vh;
+  }
+}
