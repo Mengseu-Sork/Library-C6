@@ -4,17 +4,6 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-}
-section{
-    display: flex;
-    flex-direction: column;
-    margin: 20px 60px;
-    padding: 20px 60px;
-}
 @import "../components/variable";
 @import "../mixins/groupmixin";
 @import "../components/navbar";
@@ -23,3 +12,19 @@ section{
 @import "../components/aside";
 @import "../components/header";
 @import "../components/topic";
+@import "../components/header";
+@import "../components/button";
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    section{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 60px;
+        padding: 20px 60px;
+    }
+}
+
+

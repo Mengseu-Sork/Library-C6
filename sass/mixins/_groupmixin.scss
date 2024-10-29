@@ -17,3 +17,17 @@
     margin-bottom: 20px;
     font-size: 30px;
 }
+@mixin main-content {
+    @include display-conter;
+    background: linear-gradient(to right, #2d2d2dc7 20%, #52515117 100%,#c2c2c2 100%);
+    width:300px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 1px 2px 1px 0px $coo-main;
+    h1 {
+        @include display-conter;
+        color: white;
+        font-size: 28px;
+    }
+}
