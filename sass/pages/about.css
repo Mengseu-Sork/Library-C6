@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -333,7 +333,7 @@ main .main-bottom .main-contain .main-right-contain img {
 header {
   background-image: url(../../images/home/bg.png);
   background-size: cover;
-  height: 85vh;
+  height: 80vh;
 }
 header .content {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7803921569) 30%, rgba(0, 0, 0, 0.0901960784) 100%, #000000 100%);
@@ -514,4 +514,93 @@ section .text-section h1 {
   padding-bottom: 10px;
   margin-top: 30px;
   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    height: 10vh;
+  }
+  .navbar .nav-left {
+    width: 50%;
+  }
+  .navbar .nav-left .logo img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .bg {
+    height: 30vh;
+  }
+  .bg img {
+    width: 100%;
+    height: 30vh;
+  }
+  section {
+    width: 95%;
+    margin: 25px;
+  }
+  .group-card {
+    gap: 20px;
+  }
+  .group-card .card {
+    width: 35%;
+    height: 30vh;
+  }
+  .group-card .card img {
+    width: 50px;
+    height: 50px;
+  }
+  .group-card .card h4 {
+    font-size: 12px;
+  }
+  .group-card .card p {
+    font-size: 10px;
+  }
+  .group-card .card1, .group-card .card2, .group-card .card3 {
+    height: 35vh;
+    width: 30%;
+  }
+  .main-contain {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contain .main-left-contain p {
+    font-size: 14px;
+  }
+  .main-contain .main-right-contain {
+    margin-right: 0;
+    text-align: center;
+  }
+  .main-contain .main-right-contain img {
+    margin-top: 10px;
+    width: 550px;
+    height: 300px;
+  }
+  .aside-contain {
+    display: flex;
+    flex-direction: column;
+  }
+  .aside-contain .aside-left-contain h4 {
+    font-size: 18px;
+  }
+  .aside-contain .aside-left-contain p {
+    font-size: 14px;
+  }
+  .aside-contain .aside-right-contain {
+    margin: 0;
+  }
+  .aside-contain .aside-right-contain img {
+    width: 550px;
+    height: 300px;
+  }
+  .group-img img {
+    width: 175px;
+    height: 150px;
+  }
+  footer {
+    height: 10vh;
+  }
+  h1 {
+    font-size: 26px;
+  }
 }/*# sourceMappingURL=about.css.map */

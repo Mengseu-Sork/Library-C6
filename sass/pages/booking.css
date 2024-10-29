@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -362,7 +362,7 @@ input[type=information] {
 .group-text {
   display: flex;
   flex-direction: column;
-  margin-left: 54px;
+  margin-left: 50px;
   margin-top: 20px;
 }
 
@@ -412,7 +412,7 @@ input[type=time] {
   background-color: #08707F;
   color: white;
   width: 90%;
-  margin-left: 55px;
+  margin-left: 50px;
   padding: 10px;
   margin-bottom: 30px;
   border: none;
@@ -449,7 +449,7 @@ input[type=time] {
 header {
   background-image: url(../../images/home/bg.png);
   background-size: cover;
-  height: 85vh;
+  height: 80vh;
 }
 header .content {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7803921569) 30%, rgba(0, 0, 0, 0.0901960784) 100%, #000000 100%);
