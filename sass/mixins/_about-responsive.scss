@@ -25,6 +25,21 @@
     section {
         width: 95%;
         margin: 25px;
+        .text-section{
+          h1{
+            font-size: 26px;
+          }
+        }
+        .main-top{
+          h1{
+            font-size: 26px;
+          }
+        }
+        .main-bottom{
+          h1{
+            font-size: 26px;
+          }
+        }
     }
   
     .group-card {
@@ -40,11 +55,11 @@
             }
   
             h4 {
-                font-size: 12px;
+                font-size: 14px;
             }
     
             p {
-                font-size: 10px;
+                font-size: 12px;
                 }
         }
   
@@ -58,7 +73,7 @@
       flex-direction: column;
         .main-left-contain {
           p {
-            font-size: 14px;
+            font-size: 16px;
           }
         }
       
@@ -67,7 +82,7 @@
             text-align: center;
             img {
                 margin-top: 10px;
-                width: 550px;
+                width: 610px;
                 height: 300px;
             }
         }
@@ -82,7 +97,7 @@
             }
         
             p {
-                font-size: 14px;
+                font-size: 16px;
             }
         }
         
@@ -90,7 +105,7 @@
                 margin: 0;
             
                 img {
-                    width: 550px;
+                    width: 610px;
                     height: 300px;
             }
         }
@@ -104,9 +119,12 @@
     footer {
       height: 10vh;
     }
-  
-    h1 {
-      font-size: 26px;
+    .aside-top,
+    .aside-bottom,
+    .header-section{
+      h1{
+        font-size: 26px;
+      }
     }
 }
 
@@ -133,8 +151,8 @@
       .logo {
         img {
           margin-top: 2px;
-          width: 30px;
-          height: 30px;
+          width: 35px;
+          height: 35px;
           display: block;
         }
       }
@@ -169,7 +187,7 @@
         top: 50px;
         right: -100%;
         background-color: $coor-link;
-        width: 24%;
+        width: 30%;
         height: 15vh;
         display: flex;
         flex-direction: column;
@@ -205,17 +223,51 @@
   }
   section {
     width: 95%;
-    margin: 20px;
+    margin: 15px;
     padding:0px 20px;
-    p{
-      font-size: 14px;
+    .text-section{
+      margin-bottom: 30px;
+      h1{
+        font-size: 20px;
+      }
     }
+    .main-top{
+
+      h1{
+        font-size: 20px;
+      }
+    }
+    .main-bottom{
+      margin-top: 30px;
+      h1{
+        font-size: 20px;
+      }
+    }
+    .aside-top{
+      margin-top: 30px;
+      h1{
+        font-size: 20px;
+      }
+    }
+    .aside-bottom{
+      margin-top: 30px;
+      h1{
+        font-size: 20px;
+      }
+    }
+    .header-section{
+      margin-top: 30px;
+      h1{
+        font-size: 20px;
+      }
+    }
+
   }
   .group-card {
     gap: 20px;
 
     .card {
-        width: 40%;
+        width: 70%;
         height: 40vh;
 
         img {
@@ -224,7 +276,7 @@
         }
 
         h4 {
-            font-size: 18px;
+            font-size: 14px;
         }
 
         p {
@@ -234,7 +286,6 @@
 
     .card1, .card2, .card3 {
         height: 50vh;
-        width: 60%;
     }
   }
   .main-contain{
@@ -251,7 +302,7 @@
           text-align: center;
           img {
               margin-top: 5px;
-              width: 600px;
+              width: 550px;
               height: 300px;
           }
       } 
@@ -273,39 +324,52 @@
             margin: 0;
         
             img {
-                width: 445px;
-                height: 300px;
+                width: 290px;
+                height: 200px;
         }
     }
   }
   .group-img {
       @include display-conter;
+      margin-top: 20px;
       img {
-        width: 180px;
-        height: 150px;
-}
+        width: 120px;
+        height: 100px;
+    }
   }
 
   footer {
-    height: 10vh;
+    height: 20vh;
     justify-content: space-evenly;
+    flex-direction: column;
     .footer-left, .footer-conter, .footer-right {
       @include display-conter;
   
       h4 {
           color: $footer-h4;
           text-transform: uppercase;
+          font-size: 14px;
       }
   
       img {
-          width: 20px;
-          height: 20px;
+          width: 25px;
+          height: 25px;
           margin-right: 10px;
       }
     }
-  }
-
-  h1 {
-    font-size: 18px;
+    .footer-left{
+      margin-right: 40px;
+      margin-top: 10px;
+      img{
+        margin-right: 15px;
+      }
+    }
+    .footer-conter{
+      margin-right: 12px;
+      img{
+        width: 30px;
+        height: 30px;
+      }
+    }
   }
 }
