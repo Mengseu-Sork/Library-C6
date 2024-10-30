@@ -203,6 +203,13 @@
             }
         }
         }
+        footer {
+          height: 10vh;
+        }
+            
+        h1 {
+         font-size: 26px;
+          }
 }
 // Button
 .com-book {
@@ -232,14 +239,11 @@
         margin-top: 20px;
           border-radius: 40px
         }
-        footer {
-            height: 10vh;
-          }
-        
-          h1 {
-            font-size: 26px;
-          }
 }
+
+
+
+
 @media (min-width:320px) and (max-width:767px) {
   // Navbar
   .navbar {
@@ -541,6 +545,45 @@
         }
       }
   }
+  footer {
+    height: 12vh;
+    
+    h4 {
+        color: $footer-h4;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    img {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .footer-left {
+        margin-right: 40px;
+        margin-top: 10px;
+        
+        img {
+            margin-right: 15px;
+        }
+    }
+
+    .footer-center {
+        margin-right: 12px;
+        
+        img {
+            width: 30px;
+            height: 30px;
+        }
+      }
+
+      .footer-right {
+        display: none;
+      }
+
+  }
+
 }
 // Type book
 .bookes {

@@ -818,6 +818,12 @@ header .content p {
     width: 50px;
     font-size: 8px;
   }
+  footer {
+    height: 10vh;
+  }
+  h1 {
+    font-size: 26px;
+  }
 }
 .com-book {
   margin-top: 10px;
@@ -839,12 +845,6 @@ header .content p {
 .com-book .booking {
   margin-top: 20px;
   border-radius: 40px;
-}
-.com-book footer {
-  height: 10vh;
-}
-.com-book h1 {
-  font-size: 26px;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -1126,6 +1126,36 @@ header .content p {
     width: 50px;
     font-size: 7.5px;
     box-shadow: none;
+  }
+  footer {
+    height: 12vh;
+  }
+  footer h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  footer img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  footer .footer-left {
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+  footer .footer-left img {
+    margin-right: 15px;
+  }
+  footer .footer-center {
+    margin-right: 12px;
+  }
+  footer .footer-center img {
+    width: 30px;
+    height: 30px;
+  }
+  footer .footer-right {
+    display: none;
   }
 }
 .bookes {
