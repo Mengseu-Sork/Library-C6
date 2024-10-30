@@ -1041,32 +1041,12 @@ section .text-section h1 {
     height: 100px;
   }
   footer {
-    height: 20vh;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    height: 10vh;
   }
-  footer .footer-left, footer .footer-conter, footer .footer-right {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  footer .footer-left h4, footer .footer-conter h4, footer .footer-right h4 {
-    color: white;
-    text-transform: uppercase;
+  footer h4 {
     font-size: 14px;
   }
-  footer .footer-left img, footer .footer-conter img, footer .footer-right img {
+  footer img {
     width: 25px;
     height: 25px;
     margin-right: 10px;
@@ -1078,11 +1058,14 @@ section .text-section h1 {
   footer .footer-left img {
     margin-right: 15px;
   }
-  footer .footer-conter {
+  footer .footer-center {
     margin-right: 12px;
   }
-  footer .footer-conter img {
+  footer .footer-center img {
     width: 30px;
     height: 30px;
+  }
+  footer .footer-right {
+    display: none;
   }
 }
