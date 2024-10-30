@@ -449,7 +449,7 @@ main .main-bottom .main-contain .main-right-contain {
   margin-right: 50px;
 }
 main .main-bottom .main-contain .main-right-contain img {
-  width: 300px;
+  width: 310px;
   height: 190px;
   border-radius: 5px;
 }
@@ -703,7 +703,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 20px 80px;
+  margin: 20px 60px;
   padding: 20px 80px;
 }
 section .text-section {
