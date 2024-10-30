@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-  background-color: #FCFCFC;
+  background-color: #ececec;
   height: 15vh;
   width: 100%;
   display: flex;
@@ -433,7 +433,7 @@ header .content p {
   background: rgba(158, 158, 158, 0.075);
   border: 1px solid rgba(182, 182, 182, 0.795);
   width: 210px;
-  background: #FCFCFC;
+  background: #ececec;
   border-radius: 5px;
 }
 .donate .form-container form .donate-information {
@@ -488,7 +488,7 @@ header .content p {
   color: rgb(146, 146, 146);
   background: rgba(158, 158, 158, 0.075);
   border: 1px solid rgba(182, 182, 182, 0.795);
-  background: #FCFCFC;
+  background: #ececec;
   border-radius: 5px;
   padding: 10px;
 }

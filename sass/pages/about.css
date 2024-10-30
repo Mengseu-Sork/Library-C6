@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-  background-color: #FCFCFC;
+  background-color: #ececec;
   height: 15vh;
   width: 100%;
   display: flex;
@@ -298,7 +298,7 @@ main .main-bottom .main-contain .main-right-contain {
   margin-right: 50px;
 }
 main .main-bottom .main-contain .main-right-contain img {
-  width: 300px;
+  width: 310px;
   height: 190px;
   border-radius: 5px;
 }
@@ -489,7 +489,7 @@ header .content p {
 section {
   display: flex;
   flex-direction: column;
-  margin: 20px 80px;
+  margin: 20px 60px;
   padding: 20px 80px;
 }
 section .text-section {
@@ -502,17 +502,17 @@ section .text-section h1 {
   font-size: 30px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .navbar {
     height: 10vh;
   }
   .navbar .nav-left {
-    width: 50%;
+    width: 60%;
   }
   .navbar .nav-left .logo img {
     width: 50px;
     height: 50px;
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .bg {
     height: 30vh;
@@ -525,8 +525,17 @@ section .text-section h1 {
     width: 95%;
     margin: 25px;
   }
+  section .text-section h1 {
+    font-size: 26px;
+  }
+  section .main-top h1 {
+    font-size: 26px;
+  }
+  section .main-bottom h1 {
+    font-size: 26px;
+  }
   .group-card {
-    gap: 20px;
+    gap: 25px;
   }
   .group-card .card {
     width: 35%;
@@ -537,14 +546,191 @@ section .text-section h1 {
     height: 50px;
   }
   .group-card .card h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .group-card .card p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .group-card .card1, .group-card .card2, .group-card .card3 {
     height: 35vh;
     width: 30%;
+  }
+  .main-contain {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-contain .main-left-contain p {
+    font-size: 16px;
+  }
+  .main-contain .main-right-contain {
+    margin-right: 0;
+    text-align: center;
+  }
+  .main-contain .main-right-contain img {
+    margin-top: 10px;
+    width: 610px;
+    height: 300px;
+  }
+  .aside-contain {
+    display: flex;
+    flex-direction: column;
+  }
+  .aside-contain .aside-left-contain h4 {
+    font-size: 18px;
+  }
+  .aside-contain .aside-left-contain p {
+    font-size: 16px;
+  }
+  .aside-contain .aside-right-contain {
+    margin: 0;
+  }
+  .aside-contain .aside-right-contain img {
+    width: 610px;
+    height: 300px;
+  }
+  .group-img img {
+    width: 175px;
+    height: 150px;
+  }
+  footer {
+    height: 10vh;
+  }
+  .aside-top h1,
+  .aside-bottom h1,
+  .header-section h1 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  .navbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ececec;
+  }
+  .navbar .nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+  }
+  .navbar .nav-left .logo img {
+    margin-top: 2px;
+    width: 35px;
+    height: 35px;
+    display: block;
+  }
+  .navbar .nav-left h2 {
+    font-size: 20px;
+    color: #FD9E04;
+    margin-top: 4px;
+    margin-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .navbar .nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 5px;
+  }
+  .navbar .nav-right .checkbtn {
+    display: block;
+    font-size: 24px;
+    color: #FD9E04;
+    cursor: pointer;
+  }
+  .navbar .nav-right ul {
+    position: fixed;
+    top: 50px;
+    right: -100%;
+    background-color: #08707F;
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .navbar .nav-right ul li {
+    margin-left: 12px;
+  }
+  .navbar .nav-right ul li a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .navbar .nav-right #check {
+    display: none;
+  }
+  .navbar .nav-right #check:checked ~ ul {
+    right: 0;
+  }
+  .bg {
+    height: 25vh;
+  }
+  .bg img {
+    width: 100%;
+    height: 25vh;
+  }
+  section {
+    width: 95%;
+    margin: 15px;
+    padding: 0px 20px;
+  }
+  section .text-section {
+    margin-bottom: 30px;
+  }
+  section .text-section h1 {
+    font-size: 20px;
+  }
+  section .main-top h1 {
+    font-size: 20px;
+  }
+  section .main-bottom {
+    margin-top: 30px;
+  }
+  section .main-bottom h1 {
+    font-size: 20px;
+  }
+  section .aside-top {
+    margin-top: 30px;
+  }
+  section .aside-top h1 {
+    font-size: 20px;
+  }
+  section .aside-bottom {
+    margin-top: 30px;
+  }
+  section .aside-bottom h1 {
+    font-size: 20px;
+  }
+  section .header-section {
+    margin-top: 30px;
+  }
+  section .header-section h1 {
+    font-size: 20px;
+  }
+  .group-card {
+    gap: 20px;
+  }
+  .group-card .card {
+    width: 70%;
+    height: 40vh;
+  }
+  .group-card .card img {
+    width: 50px;
+    height: 50px;
+  }
+  .group-card .card h4 {
+    font-size: 14px;
+  }
+  .group-card .card p {
+    font-size: 14px;
+  }
+  .group-card .card1, .group-card .card2, .group-card .card3 {
+    height: 50vh;
   }
   .main-contain {
     display: flex;
@@ -558,7 +744,7 @@ section .text-section h1 {
     text-align: center;
   }
   .main-contain .main-right-contain img {
-    margin-top: 10px;
+    margin-top: 5px;
     width: 550px;
     height: 300px;
   }
@@ -576,17 +762,46 @@ section .text-section h1 {
     margin: 0;
   }
   .aside-contain .aside-right-contain img {
-    width: 550px;
-    height: 300px;
+    width: 290px;
+    height: 200px;
+  }
+  .group-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
   }
   .group-img img {
-    width: 175px;
-    height: 150px;
+    width: 120px;
+    height: 100px;
   }
   footer {
     height: 10vh;
+    padding: 20px;
   }
-  h1 {
-    font-size: 26px;
+  footer h4 {
+    font-size: 14px;
+  }
+  footer img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  footer .footer-left {
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+  footer .footer-left img {
+    margin-right: 15px;
+  }
+  footer .footer-center {
+    margin-right: 12px;
+  }
+  footer .footer-center img {
+    width: 30px;
+    height: 30px;
+  }
+  footer .footer-right {
+    display: none;
   }
 }/*# sourceMappingURL=about.css.map */

@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background-color: #FCFCFC;
+  background-color: #ececec;
   height: 15vh;
   width: 100%;
   display: flex;
@@ -853,7 +853,7 @@ header .content p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FCFCFC;
+    background-color: #ececec;
   }
   .navbar .nav-left {
     display: flex;
