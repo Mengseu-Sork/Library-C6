@@ -1,0 +1,307 @@
+@media (min-width:768px) and (max-width:1024px){
+    .navbar {
+        height: 10vh;
+      
+        .nav-left {
+            width: 40%;
+        
+            .logo img {
+                width: 60px;
+                height: 60px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .header-bg {
+        height: 30vh;
+        h1{
+            font-size:45px;
+        }
+    }
+    .form-section{
+        margin: 30px 40px;
+        .form-nav{
+            height: 12vh;
+        }
+        .form{
+            input[type=email],
+            input[type=age],
+            input[type=number],
+            input[type=address],
+            input[type=information] {
+                width: 90%;
+            }
+            .group-text {
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+            input[type=date],
+            input[type=time] {
+                width: 90%;
+            }
+            .radio{
+                margin-left: 30px;
+                .group-radio{
+                    .choose2 {
+                        margin-right: 51px;
+                    }
+                    
+                    .choose4 {
+                        margin-right: 60px;
+                    }
+                    
+                    .choose6 {
+                        margin-right: 71px;
+                    }
+                    
+                }
+            }
+        }
+        .btn{
+            margin-left: 30px;
+            width: 92%;
+        }
+    }
+    footer {
+        height: 10vh;
+
+      
+          h4 {
+              font-size: 14px;
+          }
+      
+          img {
+              width: 25px;
+              height: 25px;
+              margin-right: 10px;
+          }
+        .footer-left{
+            margin-right: 40px;
+            margin-top: 10px;
+            img{
+                margin-right: 15px;
+            }
+        }
+        .footer-conter{
+            margin-right: 12px;
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width:800px){
+    .navbar {
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $navbar;
+    
+        .nav-left {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding-left: 0px; 
+          .logo {
+            img {
+              margin-top: 2px;
+              width: 35px;
+              height: 35px;
+              display: block;
+            }
+          }
+    
+          h2 {
+            font-size: 20px;
+            color: $active;
+            margin-top: 4px;
+            margin-left: 10px; 
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+        }
+    
+    
+        .nav-right {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 30px;
+            margin-top: 5px;
+    
+            .checkbtn {
+                display: block;
+                font-size: 24px;
+                color: $active;
+                cursor: pointer;
+            }
+        
+            ul {
+                position: fixed;
+                top: 50px;
+                right: -100%;
+                background-color: $coor-link;
+                width: 30%;
+                height: 15vh;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+    
+            li {
+                margin-left: 12px;
+        
+                a {
+                    color: $footer-h4;
+                    font-size: 14px;
+                    text-decoration: none;
+        
+                }
+            }
+        }
+    
+            #check {
+                display: none;
+            }
+        
+            #check:checked ~ ul {
+                right: 0;
+            }
+        }
+    }
+    .header-bg {
+        height: 20vh;
+        h1{
+            font-size:20px;
+            margin: 10px;
+            padding: 30px;
+            width: 30%;
+        }
+    }
+    .form-section{
+        margin: 15px 20px;
+        .form-nav{
+            height: 10vh;
+            h1{
+                font-size: 20px;
+                margin-left: 20px;
+            }
+            .form-logo{
+                margin-right: 20px;
+                img{
+                    width: 35px;
+                    height: 35px;
+                    margin-bottom: 5px;
+                }
+                h3{
+                    font-size: 14px;
+                }
+            }
+        }
+        .form{
+            flex-direction: column;
+            .form-left{
+                width: 100%;
+                border: none;
+                h3{
+                    padding: 10px;
+                }
+                .form-input{
+                    margin-bottom: 20px;
+                    .input{
+                        margin-top: 10px;
+                        
+                    }
+                    input[type=email],
+                    input[type=age],
+                    input[type=number],
+                    input[type=address],
+                    input[type=information] {
+                        width: 90%;
+                    }
+                    .group-text {
+                        margin-left: 35px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .form-right{
+                width: 100%;
+                border: none;
+                h3{
+                    padding: 10px;
+                }
+                .group-text{
+                    margin-left: 35px;
+                    margin-top: 10px;
+                }
+                .radio{
+                    margin-left: 35px;
+                    margin-bottom: 30px;
+                    .group-radio{
+                        .choose2 {
+                            margin-right: 41px;
+                        }
+                        
+                        .choose4 {
+                            margin-right: 50px;
+                        }
+                        
+                        .choose6 {
+                            margin-right: 62px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .btn{
+            width: 83%;
+            margin-left: 35px;
+        }
+    }
+    footer {
+        height: 10vh;
+        
+        h4 {
+            font-size: 14px;
+        }
+    
+        img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+    
+    .footer-left {
+        margin-right: 40px;
+        margin-top: 10px;
+        
+        img {
+            margin-right: 15px;
+        }
+    }
+    
+    .footer-center {
+        margin-right: 12px;
+        
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    
+    .footer-right {
+        display: none;
+    }
+
+    }
+}
