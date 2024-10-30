@@ -23,8 +23,16 @@ body{
     section{
         display: flex;
         flex-direction: column;
-        margin: 20px 60px;
-        padding: 20px 60px;
+        margin: 0px 0px;
+        padding: 20px 100px 20px 100px;
+    }
+}
+
+@media (min-width:320px) and (max-width:800px) {
+    body{
+        section{
+            padding: 10px 30px 10px 30px;
+        }
     }
 }
 
