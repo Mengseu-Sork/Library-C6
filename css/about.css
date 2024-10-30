@@ -508,7 +508,7 @@ header .content p {
 }
 
 .header-bg {
-  height: 80vh;
+  height: 90vh;
   background-image: url(../images/contact/image\ 136.png);
   background-size: cover;
 }
@@ -516,20 +516,6 @@ header .content p {
   width: 20%;
   color: white;
   margin: 60px 80px;
-  padding-top: 60px;
-  font-size: 60px;
-  text-align: center;
-}
-
-#type {
-  height: 85vh;
-  background-image: url(/images/contact/image\ 136.png);
-  background-size: cover;
-}
-#type h1 {
-  width: 18%;
-  color: white;
-  margin: 80px 90px;
   padding-top: 60px;
   font-size: 60px;
   text-align: center;

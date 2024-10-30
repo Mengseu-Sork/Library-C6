@@ -430,7 +430,7 @@ header .content p {
 }
 
 .header-bg {
-  height: 80vh;
+  height: 90vh;
   background-image: url(../images/contact/image\ 136.png);
   background-size: cover;
 }
@@ -438,20 +438,6 @@ header .content p {
   width: 20%;
   color: white;
   margin: 60px 80px;
-  padding-top: 60px;
-  font-size: 60px;
-  text-align: center;
-}
-
-#type {
-  height: 85vh;
-  background-image: url(/images/contact/image\ 136.png);
-  background-size: cover;
-}
-#type h1 {
-  width: 18%;
-  color: white;
-  margin: 80px 90px;
   padding-top: 60px;
   font-size: 60px;
   text-align: center;
@@ -568,7 +554,7 @@ header .content p {
 }
 
 .header-bg {
-  height: 80vh;
+  height: 90vh;
   background-image: url(../images/contact/image\ 136.png);
   background-size: cover;
 }
@@ -576,20 +562,6 @@ header .content p {
   width: 20%;
   color: white;
   margin: 60px 80px;
-  padding-top: 60px;
-  font-size: 60px;
-  text-align: center;
-}
-
-#type {
-  height: 85vh;
-  background-image: url(/images/contact/image\ 136.png);
-  background-size: cover;
-}
-#type h1 {
-  width: 18%;
-  color: white;
-  margin: 80px 90px;
   padding-top: 60px;
   font-size: 60px;
   text-align: center;
@@ -651,6 +623,565 @@ header .content p {
   left: 220px;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    height: 10vh;
+    width: 100%;
+  }
+  .navbar .nav-left {
+    width: 50%;
+  }
+  .navbar .nav-left h2 {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .navbar .nav-left .logo img {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .navbar .nav-right {
+    width: 60%;
+    margin-left: 20px;
+  }
+  .navbar .nav-right ul {
+    width: 100%;
+  }
+  .navbar .nav-right ul li {
+    margin-right: 20px;
+  }
+  .navbar .nav-right ul li a {
+    transition: color 0.3s;
+  }
+  .navbar .nav-right ul li a:hover {
+    color: #FD9E04;
+  }
+  .navbar .checkbtn {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  .navbar #check {
+    display: none;
+  }
+  .header-bg {
+    height: 30vh;
+    background-image: url(../images/contact/image\ 136.png);
+    background-size: cover;
+  }
+  .header-bg h1 {
+    width: 30%;
+    font-size: 50px;
+  }
+  .main-content {
+    margin: 0px 0px 30px 0px;
+  }
+  .main-content h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+  }
+  .list {
+    margin: 0px 0px 30px 0px;
+  }
+  .tittle {
+    margin-bottom: 25px;
+  }
+  .tittle .line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: #403B3B;
+    gap: 4px;
+  }
+  .tittle .line #sign {
+    top: 7px;
+  }
+  .bookes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .bookes .book {
+    gap: 3px;
+  }
+  .bookes .book img {
+    width: 190px;
+    height: 290px;
+    margin-bottom: 5px;
+  }
+  .bookes .book h3 {
+    font-size: 14px;
+  }
+  .bookes .book p {
+    font-size: 10px;
+  }
+  .top-recommend {
+    height: 40vh;
+  }
+  .top-recommend .history img {
+    width: 240px;
+    height: 340px;
+  }
+  .top-recommend .content {
+    height: 40vh;
+    padding: 30px 0px 0px 30px;
+    gap: 2px;
+  }
+  .top-recommend .content h3 {
+    width: 300px;
+    font-size: 18px;
+  }
+  .top-recommend .content p {
+    font-size: 12px;
+  }
+  .top-recommend .content img {
+    width: 80px;
+    height: 20px;
+    margin: 3px;
+  }
+  .top-recommend .content #sid {
+    font-size: 13px;
+    width: 280px;
+  }
+  .top-recommend .content .review {
+    gap: 10px;
+  }
+  .top-recommend .content .review #re-1 {
+    right: 25px;
+  }
+  .top-recommend .content .review #re-2 {
+    right: 50px;
+  }
+  .top-recommend .content .review p {
+    font-size: 10px;
+    right: 30px;
+  }
+  .buttom {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .buttom .recommend {
+    gap: 2px;
+  }
+  .buttom img {
+    width: 250px;
+    height: 380px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+  }
+  .buttom h3 {
+    font-size: 14px;
+  }
+  .buttom p {
+    font-size: 9px;
+  }
+  .buttom .text {
+    width: 250px;
+  }
+  .buttom .text p {
+    width: 190px;
+    font-size: 11.5px;
+    margin-top: 3px;
+  }
+  .buttom .text button {
+    height: 20px;
+    width: 60px;
+    font-size: 8px;
+  }
+  .top-three .three {
+    gap: 3px;
+  }
+  .top-three img {
+    width: 175px;
+    height: 280px;
+    margin-bottom: 4px;
+  }
+  .top-three p {
+    font-size: 8px;
+  }
+  .top-three .text {
+    width: 175px;
+  }
+  .top-three .text p {
+    width: 140px;
+    font-size: 11px;
+  }
+  .top-three .text button {
+    height: 22px;
+    width: 50px;
+    font-size: 8px;
+  }
+  footer {
+    height: 10vh;
+  }
+  h1 {
+    font-size: 26px;
+  }
+}
+.com-book {
+  margin-top: 10px;
+}
+.com-book .comment {
+  gap: 10px;
+}
+.com-book .comment img {
+  height: 40px;
+  width: 40px;
+}
+.com-book .comment input {
+  height: 55px;
+  padding-left: 20px;
+  width: 280px;
+  border-radius: 40px;
+  font-size: 16px;
+}
+.com-book .booking {
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .navbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FCFCFC;
+  }
+  .navbar .nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+  }
+  .navbar .nav-left .logo img {
+    margin-top: 2px;
+    width: 35px;
+    height: 35px;
+    display: block;
+  }
+  .navbar .nav-left h2 {
+    font-size: 20px;
+    color: #FD9E04;
+    margin-top: 4px;
+    margin-left: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .navbar .nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 5px;
+  }
+  .navbar .nav-right .checkbtn {
+    display: block;
+    font-size: 24px;
+    color: #FD9E04;
+    cursor: pointer;
+  }
+  .navbar .nav-right ul {
+    position: fixed;
+    top: 50px;
+    right: -100%;
+    background-color: #08707F;
+    width: 30%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .navbar .nav-right ul li {
+    margin-left: 12px;
+  }
+  .navbar .nav-right ul li a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .navbar .nav-right #check {
+    display: none;
+  }
+  .navbar .nav-right #check:checked ~ ul {
+    right: 0;
+  }
+  .header-bg {
+    height: 20vh;
+    background-image: url(../images/contact/image\ 136.png);
+    background-size: cover;
+  }
+  .header-bg h1 {
+    width: 20%;
+    font-size: 20px;
+    margin: 30px 40px;
+    padding-top: 20px;
+  }
+  .main-content {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+  }
+  .main-content h1 {
+    font-size: 18px;
+  }
+  .com-book {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  .com-book .comment {
+    gap: 6px;
+  }
+  .com-book .comment img {
+    height: 30px;
+    width: 30px;
+  }
+  .com-book .comment input {
+    height: 40px;
+    padding-left: 20px;
+    width: 250px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .com-book .booking {
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  .com-book .booking p {
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+  }
+  .com-book .booking a {
+    border-radius: 0px 40px 40px 0px;
+    text-decoration: none;
+    padding: 11px 70px 11px 40px;
+    position: relative;
+    top: 29px;
+    left: 20px;
+  }
+  .com-book .booking img {
+    position: relative;
+    bottom: 35px;
+    left: 200px;
+  }
+  .top-three {
+    gap: 30px;
+    overflow-x: scroll;
+  }
+  .top-three .three {
+    gap: 2px;
+  }
+  .top-three img {
+    width: 300px;
+    height: 430px;
+    margin-bottom: 10px;
+  }
+  .top-three p {
+    width: 250px;
+    font-size: 9px;
+  }
+  .top-three .text {
+    width: 300px;
+  }
+  .top-three .text p {
+    width: 240px;
+    font-size: 12px;
+    margin-top: 6px;
+  }
+  .top-three .text button {
+    height: 23px;
+    width: 60px;
+    font-size: 10px;
+  }
+  .list {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+  }
+  .list h1 {
+    font-size: 18px;
+  }
+  .tittle {
+    margin-bottom: 6px;
+  }
+  .tittle h3 {
+    font-size: 14px;
+  }
+  .tittle .line {
+    gap: 2px;
+  }
+  .tittle .line span {
+    position: relative;
+    bottom: 4px;
+    font-size: 9px;
+  }
+  .tittle .line #sign {
+    top: 0px;
+  }
+  .top-recommend {
+    height: 25vh;
+    margin-bottom: 30px;
+  }
+  .top-recommend .history img {
+    width: 100px;
+    height: 150px;
+  }
+  .top-recommend .content {
+    height: 25vh;
+    padding: 10px 0px 0px 0px;
+    gap: 0px;
+  }
+  .top-recommend .content h3 {
+    width: 130px;
+    font-size: 10px;
+  }
+  .top-recommend .content p {
+    font-size: 8px;
+  }
+  .top-recommend .content img {
+    width: 40px;
+    height: 12px;
+    margin: 3px;
+  }
+  .top-recommend .content #sid {
+    font-size: 8px;
+    width: 130px;
+    height: 80px;
+    overflow-y: scroll;
+  }
+  .top-recommend .content .review {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    gap: 2px;
+  }
+  .top-recommend .content .review img {
+    width: 10px;
+    height: 10px;
+  }
+  .top-recommend .content .review #re-1 {
+    position: relative;
+    right: 10px;
+  }
+  .top-recommend .content .review #re-2 {
+    position: relative;
+    right: 20px;
+  }
+  .top-recommend .content .review p {
+    font-size: 7px;
+    position: relative;
+    right: 15px;
+  }
+  .top-recommend .content .review button {
+    height: 13px;
+    width: 35px;
+    font-size: 6.5px;
+  }
+  .buttom {
+    margin-bottom: 30px;
+    overflow-x: scroll;
+    gap: 30px;
+  }
+  .buttom .recommend {
+    gap: 2px;
+  }
+  .buttom img {
+    width: 120px;
+    height: 200px;
+    margin-bottom: 3px;
+  }
+  .buttom h3 {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  .buttom p {
+    font-size: 4.5px;
+    padding-left: 5px;
+  }
+  .buttom .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 120px;
+  }
+  .buttom .text p {
+    width: 120px;
+    font-size: 6px;
+    margin: 3px 0px 5px 0px;
+  }
+  .buttom .text button {
+    height: 16px;
+    width: 50px;
+    font-size: 7.5px;
+    box-shadow: none;
+  }
+  footer {
+    height: 12vh;
+  }
+  footer h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  footer img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  footer .footer-left {
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+  footer .footer-left img {
+    margin-right: 15px;
+  }
+  footer .footer-center {
+    margin-right: 12px;
+  }
+  footer .footer-center img {
+    width: 30px;
+    height: 30px;
+  }
+  footer .footer-right {
+    display: none;
+  }
+}
+.bookes {
+  overflow-x: scroll;
+  margin-bottom: 20px;
+  gap: 30px;
+}
+.bookes .book {
+  gap: 2px;
+}
+.bookes .book img {
+  width: 80px;
+  height: 120px;
+  margin-bottom: 2px;
+}
+.bookes .book h3 {
+  font-size: 8px;
+}
+.bookes .book p {
+  font-size: 6px;
+}
+.bookes .book .four-stars {
+  width: 30px;
+  height: 8px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -659,6 +1190,12 @@ body {
 body section {
   display: flex;
   flex-direction: column;
-  margin: 20px 60px;
-  padding: 20px 60px;
+  margin: 0px 0px;
+  padding: 20px 100px 20px 100px;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  body section {
+    padding: 10px 30px 10px 30px;
+  }
 }/*# sourceMappingURL=contact.css.map */

@@ -652,7 +652,7 @@ header .content p {
 }
 
 .header-bg {
-  height: 80vh;
+  height: 90vh;
   background-image: url(../images/contact/image\ 136.png);
   background-size: cover;
 }
@@ -967,4 +967,5 @@ header .content p {
   footer .footer-right {
     display: none;
   }
-}
+
+}/*# sourceMappingURL=booking.css.map */
