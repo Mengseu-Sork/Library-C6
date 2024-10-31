@@ -476,12 +476,13 @@ main .main-bottom .main-contain .main-right-contain img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 80px;
+  gap: 20px;
   margin-top: 30px;
 }
 .header-section img {
   width: 300px;
-  height: 200px;
+  height: 120px;
+  margin-left: 25px;
 }
 
 header {
