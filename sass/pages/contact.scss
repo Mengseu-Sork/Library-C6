@@ -23,7 +23,7 @@ body{
     section{
         display: flex;
         flex-direction: column;
-        margin: 10px 80px;
+        margin: 10px 60px;
         padding: 20px 100px 20px 100px;
     }
 }
@@ -33,6 +33,7 @@ body{
     body{
         section{
             padding: 20px 10px;
+            height: auto;
         }
     }
 }

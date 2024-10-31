@@ -1129,7 +1129,7 @@ label {
   .time-open {
     padding: 30px;
     text-align: center;
-    height: 20vh;
+    height: 30vh;
   }
   .time-open h2 {
     font-size: 14px;
@@ -1150,7 +1150,7 @@ label {
     font-size: 12px;
   }
   .donate {
-    height: 98vh;
+    height: 95vh;
     padding: 30px;
   }
   .donate h2 {

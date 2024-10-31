@@ -1518,17 +1518,14 @@ body section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  margin: 10px 80px;
-=======
-  margin: 0px 0px;
->>>>>>> sreypich
+  margin: 10px 60px;
   padding: 20px 100px 20px 100px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   body section {
     padding: 20px 10px;
+    height: auto;
   }
 }
 @media (min-width: 320px) and (max-width: 800px) {
