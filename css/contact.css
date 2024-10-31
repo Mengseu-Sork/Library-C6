@@ -1518,7 +1518,11 @@ body section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
   margin: 10px 80px;
+=======
+  margin: 0px 0px;
+>>>>>>> sreypich
   padding: 20px 100px 20px 100px;
 }
 

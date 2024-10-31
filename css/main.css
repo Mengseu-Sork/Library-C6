@@ -827,8 +827,8 @@ label {
   }
   .container {
     gap: 5%;
-    padding: 10%;
-    height: 35vh;
+    padding: 5% 10%;
+    height: 25vh;
   }
   .container .content {
     -webkit-box-flex: 1.5;
@@ -844,7 +844,7 @@ label {
   }
   .time-open {
     padding: 0 10%;
-    height: 23vh;
+    height: 20vh;
   }
   .time-open h2 {
     font-size: 26px;
@@ -869,7 +869,7 @@ label {
     font-size: 26px;
   }
   .donate .form-container {
-    height: 108vh;
+    height: 105vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -932,6 +932,9 @@ label {
     width: 70px;
     height: 70px;
   }
+  .donate .form-container form .submit {
+    margin-top: 20px;
+  }
   .donate .form-container form .submit a {
     font-size: 16px;
   }
@@ -953,7 +956,7 @@ label {
     font-size: 16px;
   }
   .location {
-    height: 80vh;
+    height: 70vh;
   }
   .location .bg-contact {
     background-color: white;
@@ -963,16 +966,16 @@ label {
             flex-direction: column-reverse;
     gap: 20px;
     padding: 0;
-    height: 80vh;
+    height: 70vh;
   }
   .location .bg-contact * {
     color: black;
   }
   .location .bg-contact .map {
     border-radius: 0;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -webkit-box-flex: 1.2;
+        -ms-flex: 1.2;
+            flex: 1.2;
     width: 100%;
   }
   .location .bg-contact .contact {
@@ -1089,7 +1092,7 @@ label {
     right: 0;
   }
   header {
-    height: 30vh;
+    height: 24vh;
   }
   header .content {
     height: 100%;
@@ -1105,7 +1108,7 @@ label {
   }
   .container {
     padding: 8%;
-    height: 45vh;
+    height: 35vh;
   }
   .container .content {
     -webkit-box-flex: 1;
@@ -1124,9 +1127,9 @@ label {
     display: none;
   }
   .time-open {
-    padding: 8%;
+    padding: 30px;
     text-align: center;
-    height: 30vh;
+    height: 20vh;
   }
   .time-open h2 {
     font-size: 14px;
@@ -1147,14 +1150,14 @@ label {
     font-size: 12px;
   }
   .donate {
-    height: 150vh;
-    padding: 8%;
+    height: 98vh;
+    padding: 30px;
   }
   .donate h2 {
     display: none;
   }
   .donate .form-container {
-    height: 140vh;
+    height: 90vh;
     -webkit-box-shadow: none;
             box-shadow: none;
     -webkit-box-orient: vertical;
@@ -1164,9 +1167,9 @@ label {
     gap: 0;
   }
   .donate .form-container form {
-    -webkit-box-flex: 1.5;
-        -ms-flex: 1.5;
-            flex: 1.5;
+    -webkit-box-flex: 1.4;
+        -ms-flex: 1.4;
+            flex: 1.4;
     -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
@@ -1253,6 +1256,7 @@ label {
     -webkit-box-flex: 0.5;
         -ms-flex: 0.5;
             flex: 0.5;
+    margin-bottom: 30px;
   }
   .donate .form-container .form-right .content {
     height: 100%;
@@ -1274,7 +1278,7 @@ label {
     color: white;
   }
   .location {
-    height: 85vh;
+    height: 80vh;
   }
   .location .bg-contact {
     background-color: white;
@@ -1284,7 +1288,7 @@ label {
             flex-direction: column-reverse;
     gap: 20px;
     padding: 0;
-    height: 85vh;
+    height: 80vh;
   }
   .location .bg-contact * {
     color: black;
@@ -1297,9 +1301,9 @@ label {
     width: 100%;
   }
   .location .bg-contact .contact {
-    -webkit-box-flex: 0.8;
-        -ms-flex: 0.8;
-            flex: 0.8;
+    -webkit-box-flex: 0.6;
+        -ms-flex: 0.6;
+            flex: 0.6;
     padding: 0 15px;
   }
   .location .bg-contact .contact * {
