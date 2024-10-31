@@ -1512,6 +1512,7 @@ body section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
   margin: 0px 0px;
   padding: 20px 100px 20px 100px;
 }
@@ -1520,4 +1521,8 @@ body section {
   body section {
     padding: 10px 30px 10px 30px;
   }
+=======
+  margin: 20px 60px;
+  padding: 20px 60px;
+>>>>>>> sreypich
 }

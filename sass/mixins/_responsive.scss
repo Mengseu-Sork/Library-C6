@@ -1,4 +1,4 @@
-@media (min-width:768px) and (max-width:1023px) {
+@media (min-width:768px) and (max-width: 1024px) {
     .navbar {
       height: 10vh;
       width: 100%;
@@ -34,7 +34,6 @@
           }
         }
       }
-  
       .checkbtn {
         font-size: 30px;
         color: $footer-h4;
@@ -47,88 +46,330 @@
       }
     }
     header{
-        height: 40vh;
+        height: 35vh;
         .content{
-            padding: 10% 35% 20% 10%;
+            padding:10% 18% 0 10%;
             h1{
-                font-size: 30px;
-            }
-            p{
-                font-size: 12px;
+                font-size: 38px;
             }
         }
     }
     .container{
         gap: 5%;
         padding:10%;
-        height: 42vh;
+        height: 35vh;
         .content{
-            margin-right: 5%;
+            flex: 1.5;
+            margin-right: 0;
             h2{
-                font-size: 20px;
-            }
-            p{
-                font-size: 14px;
-            }
-            span{
-                font-size: 20px;
+                font-size: 26px;
             }
         }
         .icon{
-            align-items: flex-start;
-            img{
-                width: 290px;
-                height: 280px;
-            }
+            display: none;
         }
     }
     .time-open{
         padding: 0 10%;
-        height: 20vh;
+        height: 23vh;
         h2{
-            font-size: 20px;
+            font-size: 26px;
         }
         table{
-            width: 70%;
+            width: 80%;
             tr{
                 td{
                     padding: 15px;
                 }
                 td:nth-child(1){
                     padding-left: 15px;
-                    font-size: 14px;
                 }
                 td:nth-child(2){
                     padding-left: 50px;
-                    font-size: 16px;
                 }
             }
         }
     }
     .donate{
-        height: 50vh;
+        height: 120vh;
         padding: 0 10%;
         h2{
-            font-size: 20px;
+            font-size: 26px;
         }
         .form-container{
-            height: 40vh;
+            height: 108vh;
+            flex-direction: column-reverse;
+            box-shadow: none;
+            gap: 25px;
             form{
+                flex: 1.5;
                 border-radius: 20px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                h4{
+                    font-size: 24px;
+                }
+                .information{
+                    input{
+                        font-size: 16px;
+                    }
+                }
+                .donate-information{
+                    margin-bottom: 5px;
+                }
+                .choie{
+                    span{
+                        font-size: 16px;
+                    }
+                }
+                .budget-pay{
+                    .left{
+                        flex: 5;
+                        p{
+                            font-size: 16px;
+                        }
+                        span{
+                            font-size: 16px;
+                        }
+                        .or{
+                            margin-left: 20%;
+                            font-size: 20px;
+                        }
+                    }
+                    .right{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        img{
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+                }
+                .submit{
+                    a{
+                        font-size: 16px;
+                    }
+                    button{
+                        padding: 8px 15px;
+                        border-radius: 3px;
+                        font-size: 16px;
+                        
+                    }
+                }
+            }
+            .form-right{
+                border-radius: 0;
+                .content{
+                    padding: 15px;
+                    h4{
+                        margin-bottom: 10px;
+                    }
+                    
+                    
+                }
+            }
+        }
+    }
+    label{
+        font-size: 16px;
+    }
+    .location{
+        height: 80vh;
+        .bg-contact{
+            *{
+                color: black;
+            }
+            background-color: white;
+            flex-direction: column-reverse;
+            gap: 20px;
+            padding: 0;
+            height: 80vh;
+            .map{
+                border-radius: 0;
+                flex: 1;
+                width: 100%;
+                // height: 100px;
+            }
+            .contact{
+                flex: 0.8;
+                padding: 0 15px;
+                *{
+                    margin-bottom: 20px;
+                }
+                h1{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                a{
+                    font-size: 20px;
+                }
+                
+            }
+        } 
+    }
+    footer{
+        height: 8vh;
+    }
+}
+@media (min-width:320px)and (max-width: 767px){
+    .navbar {
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $navbar;
+        .nav-left {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 0px; 
+            .logo {
+                img {
+                    margin-top: 2px;
+                    width: 25px;
+                    height: 25px;
+                    display: block;
+                }
+            }
+            h2 {
+              font-size: 12px;
+              color: $active;
+              margin-top: 4px;
+              margin-left: 10px; 
+              white-space: nowrap;
+              text-overflow: ellipsis;
+            }
+        }
+        .nav-right {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 30px;
+            margin-top: 5px;
+            .checkbtn {
+              display: block;
+              font-size: 24px;
+              color: $coor-link;
+              cursor: pointer;
+            }
+            ul {
+              position: fixed;
+              top: 30px;
+              right: -100%;
+              background-color: teal;
+              width: 24%;
+              height: 15vh;
+              display: flex;
+              flex-direction: column;
+              align-items: start;
+                li {
+                    margin-left: 12px;
+                    a {
+                        color: white;
+                        font-size: 8px;
+                        text-decoration: none;
+                    }
+                }
+            }
+            #check {
+              display: none;
+            }
+            #check:checked ~ ul {
+              right: 0;
+            }
+        }
+    }
+    header{
+        height: 30vh;
+        .content{
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.452);
+            padding: 15%;
+            h1{
+                font-size: 20px;
+                text-align: center;
+            }
+            p{
+                display: none;
+            }
+        }
+    }
+    .container{
+        // flex-direction: column;
+        // gap: 0;
+        padding:8%;
+        height: 45vh;
+        .content{
+            flex: 1;
+            margin: 0;
+            h2{
+                font-size: 14px;
+                margin-bottom: 8px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .icon{
+            display: none;
+        }
+    }
+    .time-open{
+        padding: 8%;
+        text-align: center;
+        height: 30vh;
+        h2{
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        table{
+            width: 100%;
+            tr{
+                td{
+                    padding: 10px;
+                }
+                td:nth-child(1){
+                    padding-left: 5px;
+                    font-size: 10px;
+                }
+                td:nth-child(2){
+                    padding-left: 8px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .donate{
+        height: 150vh;
+        padding: 8%;
+
+        h2{
+            display: none;
+        }
+        .form-container{
+            height: 140vh;
+            box-shadow: none;
+            flex-direction: column-reverse;
+            gap: 0;
+            form{
+                flex: 1.5;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 10px;
                 padding: 5px 20px;
                 h4{
                     margin-top: 10px;
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 .information{
                     gap: 10px;
-                    margin-top: 5px;
+                    margin-top: 10px;
+                    flex-direction: column;
                     input{
-                        padding: 4px 6px;
-                        border: 0.5px solid $color-bd;
+                        padding: 6px 10px;
                         width: 100%;
-                        border-radius: 3px;
-                        font-size: 10px;
                     }
                 }
                 .donate-information{
@@ -137,24 +378,24 @@
                 .choie{
                     display: flex;
                     gap: 20px;
-                    margin-top: 0px;
+                    margin-top: 5px;
                     margin-bottom: 10px;
                     input[type="radio"]{
                         margin-right: 0;
                     }
                     span{
-                        font-size: 10px;
+                        font-size: 14px;
                     }
                 }
                 .budget-pay{
                     .left{
                         flex: 5;
                         p{
-                            margin-bottom: 0;
-                            font-size: 10px;
+                            margin-bottom: 10px;
+                            font-size: 14px;
                         }
                         span{
-                            font-size: 10px;
+                            font-size: 14px;
                         }
                         .or{
                             margin-left: 20%;
@@ -162,11 +403,9 @@
                         }
                     }
                     .right{
-                        flex: 1;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
+                        position: relative;
+                        top: 10px;
+                        
                         img{
                             width: 40px;
                             height: 40px;
@@ -190,60 +429,62 @@
                         font-size: 10px;
                     }
                     button{
-                        padding: 4px 6px;
-                        border-radius: 3px;
                         font-size: 8px;
                     }
                 }
             }
             .form-right{
-                padding: 0 10% 1.5% 2.5%;
-                border-radius: 0 12px 12px 0;
+                padding: 0;
+                border-radius: 0;
+                flex: 0.5;
                 .content{
-                    padding: 15px;
+                    height: 100%;
+                    padding: 0;
+                    background-color: #ffffff;
+                    *{
+                        color: rgb(0, 0, 0);
+                    }
                     h4{
                         margin-bottom: 10px;
-                        font-size: 12px;
+                        font-size: 14px;
+                        color: $color-h2;
                     }
                     p{
-                        font-size: 10px;
+                        font-size: 12px;
+                        background-color: $color-h2;
+                        padding: 10px;
+                        color: $footer-h4;
                     }
                     
                 }
             }
         }
     }
-    label{
-        font-size: 10px;
-    }
     .location{
-        background-size: cover;
+        height: 85vh;
         .bg-contact{
-            display: flex;
+            *{
+                color: black;
+            }
+            background-color: white;
+            flex-direction: column-reverse;
             gap: 20px;
-            padding: 2vh;
-            height: 30vh;
+            padding: 0;
+            height: 85vh;
             .map{
-                border-radius: 15px;
+                border-radius: 0;
                 flex: 1;
-                width: 100px;
-                height: 26vh;
+                width: 100%;
+                // height: 100px;
             }
             .contact{
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                flex: 1.2;
+                flex: 0.8;
+                padding: 0 15px;
                 *{
-                    text-align: center;
                     margin-bottom: 10px;
                 }
                 h1{
-                    font-size: 30px;
-                    span{
-                        color: $active;
-                    }
+                    font-size: 20px;
                 }
                 p{
                     font-size: 14px;
@@ -255,7 +496,41 @@
             }
         } 
     }
-    footer{
-        height: 8vh;
+    footer {
+        height: 12vh;
+        
+        h4 {
+            color: $footer-h4;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+    
+        img {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+    
+        .footer-left {
+            margin-right: 40px;
+            margin-top: 10px;
+            img {
+                margin-right: 15px;
+            }
+        }
+        .footer-center {
+            margin-right: 12px;
+        
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    
+        .footer-right {
+            display: none;
+        }
     }
+    
 }
+

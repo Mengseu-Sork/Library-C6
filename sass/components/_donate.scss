@@ -5,7 +5,7 @@
         @include style-h2;
     }
     .form-container{
-        height: 80vh;
+        height: 85vh;
         display: flex;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 12px;
@@ -25,10 +25,9 @@
                 margin-top: 10px;
                 input{
                     padding: 8px 10px;
-                    width: 200px;
                     background: $bg-input;
                     border: 1px solid $color-bd;
-                    width: 210px;
+                    width: 100%;
                     background: $navbar;
                     border-radius: 5px;
                 }
@@ -79,7 +78,7 @@
             .purpose{
                 display: flex;
                 flex-direction: column;
-                margin-bottom: 10px;
+                margin-bottom: 15px;
                 textarea{
                     color: rgb(146, 146, 146);
                     background: $bg-input;
@@ -96,7 +95,7 @@
                     font-size: 12px;
                 }
                 button{
-                    padding: 7px 12px;
+                    padding: 8px 15px;
                     color: $footer-h4;
                     background-color: $active;
                     border: none;
@@ -115,7 +114,7 @@
             border-radius: 0 12px 12px 0;
             .content{
                 background-color: $active;
-                // background-color: $color-h2;
+                background-color: $color-h2;
                 padding: 20px;
                 *{
                     color: $footer-h4;

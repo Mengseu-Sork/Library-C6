@@ -428,7 +428,11 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+<<<<<<< HEAD
 .form-section .form-nav h1 {
+=======
+.form-nav h1 {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,7 +446,12 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   color: rgba(74, 74, 74, 0.8705882353);
   margin-left: 50px;
 }
+<<<<<<< HEAD
 .form-section .form-logo {
+=======
+
+.form-logo {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -482,7 +491,12 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   padding: 30px;
   color: rgba(74, 74, 74, 0.8705882353);
 }
+<<<<<<< HEAD
 .form-section .form-input {
+=======
+
+.form-input {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -492,7 +506,12 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
           flex-direction: column;
   margin-bottom: 30px;
 }
+<<<<<<< HEAD
 .form-section .input {
+=======
+
+.input {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -501,7 +520,12 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
           justify-content: space-evenly;
   margin-top: 20px;
 }
+<<<<<<< HEAD
 .form-section .group-input {
+=======
+
+.group-input {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -509,7 +533,10 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
   width: 37%;
+=======
+>>>>>>> sreypich
 }
 .form-section input[type=text],
 .form-section input[type=email],
@@ -530,7 +557,12 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
 .form-section input[type=information] {
   width: 91%;
 }
+<<<<<<< HEAD
 .form-section .group-text {
+=======
+
+.group-text {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -550,7 +582,12 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   border: 1px solid rgba(74, 74, 74, 0.8705882353);
   background-color: white;
 }
+<<<<<<< HEAD
 .form-section .radio {
+=======
+
+.radio {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -561,7 +598,12 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
   margin-top: 30px;
   margin-left: 55px;
 }
+<<<<<<< HEAD
 .form-section .group-radio {
+=======
+
+.group-radio {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -569,7 +611,12 @@ footer .footer-left img, footer .footer-conter img, footer .footer-right img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+<<<<<<< HEAD
 .form-section .choose {
+=======
+
+.choose {
+>>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -746,6 +793,7 @@ header .content p {
     height: 30px;
   }
 }
+<<<<<<< HEAD
 @media (min-width: 320px) and (max-width: 800px) {
   .navbar {
     height: 8vh;
@@ -953,4 +1001,13 @@ header .content p {
   footer .footer-right {
     display: none;
   }
+=======
+#type h1 {
+  width: 18%;
+  color: white;
+  margin: 80px 90px;
+  padding-top: 60px;
+  font-size: 60px;
+  text-align: center;
+>>>>>>> sreypich
 }
