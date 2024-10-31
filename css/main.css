@@ -1092,7 +1092,7 @@ label {
     right: 0;
   }
   header {
-    height: 30vh;
+    height: 24vh;
   }
   header .content {
     height: 100%;
@@ -1108,7 +1108,7 @@ label {
   }
   .container {
     padding: 8%;
-    height: 42vh;
+    height: 35vh;
   }
   .container .content {
     -webkit-box-flex: 1;
@@ -1127,9 +1127,9 @@ label {
     display: none;
   }
   .time-open {
-    padding: 8%;
+    padding: 30px;
     text-align: center;
-    height: 24vh;
+    height: 20vh;
   }
   .time-open h2 {
     font-size: 14px;
@@ -1150,14 +1150,14 @@ label {
     font-size: 12px;
   }
   .donate {
-    height: 145vh;
-    padding: 8%;
+    height: 98vh;
+    padding: 30px;
   }
   .donate h2 {
     display: none;
   }
   .donate .form-container {
-    height: 135vh;
+    height: 90vh;
     -webkit-box-shadow: none;
             box-shadow: none;
     -webkit-box-orient: vertical;
@@ -1256,6 +1256,7 @@ label {
     -webkit-box-flex: 0.5;
         -ms-flex: 0.5;
             flex: 0.5;
+    margin-bottom: 30px;
   }
   .donate .form-container .form-right .content {
     height: 100%;
