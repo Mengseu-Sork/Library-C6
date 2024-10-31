@@ -557,11 +557,7 @@ header .content p {
   font-size: 30px;
 }
 .donate .form-container {
-<<<<<<< HEAD
-  height: 80vh;
-=======
   height: 85vh;
->>>>>>> sreypich
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -593,13 +589,8 @@ header .content p {
   padding: 8px 10px;
   background: rgba(158, 158, 158, 0.075);
   border: 1px solid rgba(182, 182, 182, 0.795);
-<<<<<<< HEAD
-  width: 210px;
-  background: #ececec;
-=======
   width: 100%;
-  background: #FCFCFC;
->>>>>>> sreypich
+  background: #ececec;
   border-radius: 5px;
 }
 .donate .form-container form .donate-information {
@@ -661,11 +652,7 @@ header .content p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  margin-bottom: 10px;
-=======
   margin-bottom: 15px;
->>>>>>> sreypich
 }
 .donate .form-container form .purpose textarea {
   color: rgb(146, 146, 146);
@@ -1022,7 +1009,7 @@ label {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #FCFCFC;
+    background-color: #ececec;
   }
   .navbar .nav-left {
     display: -webkit-box;
@@ -1330,8 +1317,6 @@ label {
   footer {
     height: 12vh;
   }
-<<<<<<< HEAD
-=======
   footer h4 {
     color: white;
     text-transform: uppercase;
@@ -1359,5 +1344,4 @@ label {
   footer .footer-right {
     display: none;
   }
->>>>>>> sreypich
 }

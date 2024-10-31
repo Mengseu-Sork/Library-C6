@@ -689,11 +689,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
   margin: 20px 60px;
-=======
-  margin: 20px 80px;
->>>>>>> sreypich
   padding: 20px 80px;
 }
 section .text-section {
@@ -767,7 +763,6 @@ section .text-section h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-<<<<<<< HEAD
   }
   .main-contain .main-left-contain p {
     font-size: 16px;
@@ -980,8 +975,6 @@ section .text-section h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-=======
->>>>>>> sreypich
   }
   .main-contain .main-left-contain p {
     font-size: 14px;
@@ -1040,7 +1033,6 @@ section .text-section h1 {
   footer h4 {
     font-size: 14px;
   }
-<<<<<<< HEAD
   footer img {
     width: 25px;
     height: 25px;
@@ -1063,6 +1055,4 @@ section .text-section h1 {
   footer .footer-right {
     display: none;
   }
-=======
->>>>>>> sreypich
 }
