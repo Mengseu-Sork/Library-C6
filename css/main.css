@@ -863,14 +863,14 @@ label {
     padding-left: 50px;
   }
   .donate {
-    height: 120vh;
+    height: 105vh;
     padding: 0 10%;
   }
   .donate h2 {
     font-size: 26px;
   }
   .donate .form-container {
-    height: 105vh;
+    height: 93vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -934,7 +934,7 @@ label {
     height: 70px;
   }
   .donate .form-container form .submit {
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .donate .form-container form .submit a {
     font-size: 16px;
@@ -1001,7 +1001,7 @@ label {
     height: 8vh;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .navbar {
     height: 8vh;
     display: -webkit-box;

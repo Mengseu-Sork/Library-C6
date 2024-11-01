@@ -1123,7 +1123,7 @@ header .content p {
   border-radius: 40px;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .navbar {
     height: 8vh;
     display: -webkit-box;

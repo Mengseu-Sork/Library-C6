@@ -800,8 +800,8 @@ section .text-section h1 {
     height: 300px;
   }
   .group-img img {
-    width: 175px;
-    height: 150px;
+    width: 160px;
+    height: 100px;
   }
   footer {
     height: 10vh;
@@ -812,7 +812,7 @@ section .text-section h1 {
     font-size: 26px;
   }
 }
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .navbar {
     height: 8vh;
     display: -webkit-box;
