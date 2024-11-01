@@ -110,11 +110,13 @@
             }
         }
     }
-    
-    .group-img img {
-      width: 160px;
-      height: 100px;
+    .header-section{
+      .group-img img {
+        width: 160px;
+        height: 110px;
+      }
     }
+
   
     footer {
       height: 10vh;
@@ -329,14 +331,19 @@
         }
     }
   }
-  .group-img {
+  .header-section{
+    .group-img {
       @include display-conter;
       margin-top: 20px;
+      margin-right: 20px;
       img {
-        width: 120px;
-        height: 100px;
+        width: 100px;
+        height: 60px;
+        // margin-right: 10px;
     }
   }
+  }
+  
 
   footer {
     height: 10vh;
